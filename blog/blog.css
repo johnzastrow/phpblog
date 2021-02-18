@@ -1,24 +1,18 @@
 /*
-2
-Theme Name: WordPress Website
-3
-Description: WordPress plugins to be included
-4
-Author: Rithesh Raghavan
-5
-Author URI: https://acodez.com/
-6
-Tags: WordPress, Website
-7
+Theme Name: Markdown Blog
+Description: css for markdown
+Author: John Z
+Tags: Blog, Markdown
+Date: 18-Feb-2021
 */
 
 /****** Main Page section *********/
 
-
-
 html, body {
-    padding: 0;
-    margin: 0;
+    padding: 5;
+    margin: 5;
+    font-family: Helvetica, Arial, Freesans, clean, sans-serif;
+    background:#c9daf0;
 }
 
 .blog {
