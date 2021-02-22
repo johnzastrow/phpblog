@@ -104,6 +104,32 @@
                         
                         <pre><code>SELECT HU_12_NAME FROM huc12
                             WHERE ST_Contains(Geometry, MakePoint(-70.250,43.802)) = 1</code></pre>
+
+                            <pre>  17 3g2
+                                173 3gp
+                                106 AVI
+                                5598 CR2
+                                5369 dng
+                                1 jpeg
+                                19692 jpg
+                                30208 JPG
+                                67 m4a
+                                11 m4v
+                                36 mov
+                                819 MOV
+                                295 mp3
+                                221 mp4
+                                2 MP4
+                                1 mpg
+                                5 png
+                                1 PNG
+                                29 psd
+                                12 tif
+                                1 txt</pre>
+
+                                <pre>find -type f | sed 's/.*\.//' | sort | uniq -c</pre>
+
+                                
                             
                     
                     <p>
