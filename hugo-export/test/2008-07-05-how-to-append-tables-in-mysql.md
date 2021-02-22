@@ -1,5 +1,5 @@
 ---
-title: How to append tables in Mysql
+ #  How to append tables in Mysql
 categories:
   - Database
 
