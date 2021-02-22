@@ -1,9 +1,5 @@
 ---
 title: Find listen ports on your linux
-author: John C. Zastrow
-type: post
-date: 2013-03-22T18:41:58+00:00
-url: /2013/03/22/find-listen-ports-on-your-linux/
 categories:
   - Linux
 

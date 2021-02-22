@@ -1,9 +1,5 @@
 ---
 title: 'OGC Geopackage [GPKG] on the street'
-author: John C. Zastrow
-type: post
-date: 2013-01-14T16:42:16+00:00
-url: /2013/01/14/ogc-geopackage-gpkg-on-the-street/
 categories:
   - Data processing
   - Database
@@ -22,11 +18,9 @@ Here’s the link to the announcement on the Spatialite list, and I’ll include
 </p>
 
 <p style="padding-left: 60px;">
-  Hi List,<br /> I&#8217;m glad to announce you all that SpatiaLite is going to be adopted as the reference implementation by the candidate OGC GeoPackage (GPKG) standard. [1]
 </p>
 
 <p style="padding-left: 60px;">
-  The current draft of the candidate GPKG standard is now available for download; comments are welcome. [2]<br /> [1] http://www.opengeospatial.org/standards/requests/95<br /> [2] https://portal.opengeospatial.org/files/?artifact_id=51391
 </p>
 
 <p style="padding-left: 60px;">
@@ -38,11 +32,9 @@ Here’s the link to the announcement on the Spatialite list, and I’ll include
 </p>
 
 <p style="padding-left: 120px;">
-  But GPKG is a standard exchange format as well, supporting data distribution, collection of observations, and distribution of change-only updates.
 </p>
 
 <p style="padding-left: 60px;">
-  <strong>Gossips:</strong><br /> During the last months both Brad and I were members of the OGC Committee producing the candidate standard, and we contributed to its definition.
 </p>
 
 <p style="padding-left: 60px;">
@@ -61,7 +53,6 @@ Here’s the link to the announcement on the Spatialite list, and I’ll include
   * <http://spatiallyadjusted.com/2013/01/10/geopackage-comment-period-is-open/>{.broken_link}
   * <http://blog.geomusings.com/2013/01/09/comment-period-open-for-geopackage-specification-draft/>
   * <http://www.weogeo.com/blog/The_GeoPackage.html>{.broken_link}
-  * <a href="http://osgeo-org.1560.n6.nabble.com/FYI-New-OGC-Standards-Activity-Candidate-GeoPackage-Standard-td5013223.htmlhttp://" target="_blank" class="broken_link">http://osgeo-org.1560.n6.nabble.com/FYI-New-OGC-Standards-Activity-Candidate-GeoPackage-Standard-td5013223.html</a>
   * <a href="https://groups.google.com/forum/#!msg/geospatial-mobile-data-format-for-tiles/jEsh6tfTXkE/Nxl96snB_MMJ" target="_blank">https://groups.google.com/forum/#!msg/geospatial-mobile-data-format-for-tiles/jEsh6tfTXkE/Nxl96snB_MMJ</a>
   * <a href="https://twitter.com/search?q=%23geopackage" target="_blank">https://twitter.com/search?q=%23geopackage</a>
   * <a href="http://lists.osgeo.org/pipermail/standards/2012-October/000535.html" target="_blank">http://lists.osgeo.org/pipermail/standards/2012-October/000535.html</a>

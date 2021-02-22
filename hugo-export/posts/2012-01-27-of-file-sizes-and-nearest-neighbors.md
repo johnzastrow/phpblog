@@ -1,9 +1,5 @@
 ---
 title: Of file sizes and nearest neighbors
-author: John C. Zastrow
-type: post
-date: 2012-01-27T19:18:25+00:00
-url: /2012/01/27/of-file-sizes-and-nearest-neighbors/
 categories:
   - Data processing
   - Database
@@ -24,7 +20,6 @@ So, I’ll keep running with my classic point that I’ve been using in this ser
 
 As with my HUC12 question, I want to try to make Spatialite slow by asking a simple question against a lot of data. I want to push its boundaries or determine that its performance is essentially always within the “excellent” range when faced with any reasonable amount of data.
 
-So, I needed to find a big point data set.. and hopefully oen that I might actually use later. While I think the <a href="http://www.geonames.org/ " target="_blank">Geonames</a> dataset has like 7 million points, I decided to keep things closer to home and use the US national dataset from <a href="http://gnis.usgs.gov/domestic/download_data.htm" target="_blank">GNIS at USGS</a>. In the US national GNIS file there are about 2.2 million points of varying types.
 
 <figure id="attachment_370" aria-describedby="caption-attachment-370" style="width: 316px" class="wp-caption alignnone">[<img loading="lazy" class="size-full wp-image-370" title="Lots of dots" alt="Lots of dots" src="http://northredoubt.com/n/wp-content/uploads/2012/01/22millionfeatures.png" width="316" height="98" srcset="http://northredoubt.com/n/wp-content/uploads/2012/01/22millionfeatures.png 316w, http://northredoubt.com/n/wp-content/uploads/2012/01/22millionfeatures-300x93.png 300w" sizes="(max-width: 316px) 100vw, 316px" />][1]<figcaption id="caption-attachment-370" class="wp-caption-text">Lots of dots</figcaption></figure>
 
@@ -55,7 +50,6 @@ Then I simply ran these commands from a tutorial at Spatialite’s site:
 
 Where the value explanations are :
 
-<pre class="lang:pgsql decode:true">AddGeometryColumn( table String , column String , srid Integer , geom_type String , dimension String [ , not_null Integer ] ) : Integer</pre>
 
 &nbsp;
 
@@ -65,7 +59,6 @@ Voila. This created the needed structures in the database to hold the indexes, s
 
 Lastly, I had to tell Spatialite to build the spatial indexes. I just did this through the GUI by right-clicking on my new Geometry field.
 
-Why am I telling you all this? Well, for it was interesting to see the differences in file sizes representing each data type. Each has varying amount of indexes (the Access .accdb has none, but Spatialite and the Shapefiles have spatial indexes). But it’s still interesting to see the differences in the amount of room needed to store the same records in various file formats. For education I also made an ArcGIS 9.3 Personal Geodatabase and File Geodatabase as shown below. I’m not going to test performance differences here. But maybe when I finally upgrade to ArcGIS 10.X and I have a handy SQL layer option I’ll try something like that.
 
 <figure id="attachment_366" aria-describedby="caption-attachment-366" style="width: 873px" class="wp-caption alignnone">[<img loading="lazy" class="size-full wp-image-366" title="Geo Files Sizes" alt="Geo Files Sizes" src="http://northredoubt.com/n/wp-content/uploads/2012/01/file_sizes.png" width="873" height="490" srcset="http://northredoubt.com/n/wp-content/uploads/2012/01/file_sizes.png 873w, http://northredoubt.com/n/wp-content/uploads/2012/01/file_sizes-300x168.png 300w, http://northredoubt.com/n/wp-content/uploads/2012/01/file_sizes-500x280.png 500w" sizes="(max-width: 873px) 100vw, 873px" />][5]<figcaption id="caption-attachment-366" class="wp-caption-text">Geo Files Sizes</figcaption></figure>
 

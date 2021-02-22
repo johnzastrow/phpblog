@@ -1,9 +1,5 @@
 ---
 title: Improved File Listing Script
-author: John C. Zastrow
-type: post
-date: 2012-11-05T21:06:20+00:00
-url: /2012/11/05/improved-file-listing-script/
 categories:
   - Data processing
 
@@ -16,15 +12,12 @@ Run this anywhere and it will recurse through your directories and make some rea
 
 set -vx
 # Variables pretty self explanatory, S is seconds
-dater=$(date +%Y-%m-%d)
-dayer=$(date +%a)
 namer=$(hostname)
 startdir=$(pwd)
 
 echo "* WELCOME TO THE FILELISTING SCRIPT FOR THE HOSTNAME" $namer
 echo "* THE CORRECT USAGE IN A *NIX (CYWGIN) SHELL ENVIRONMENT WOULD BE SOMETHING LIKE"
 echo "* listfiles.sh &gt; /cygdrive/c/prvi/metlist.txt"
-echo "* I am running on: " $dater, $dater
 echo "* --------------------------------------------------"
 echo "* Open this file in a spreadsheet program like Excel"
 echo "* and use a pipe ( | ) delimited text format"
@@ -36,56 +29,43 @@ du -h --max-depth=1
 echo " --------------------------------------"
 echo ""
 echo "All Directories are:"
-find ./* -type d
 echo " --------------------------------------"
 echo ""
-echo "Searched on:" $(date)
 echo "On system:" $namer
 echo "From the directory:" $startdir
 echo " --------------------------------------"
 echo ""
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -print0 | xargs -0  stat -c '%N |%s |%y'
 echo ""
 echo ""
 echo ""
 echo "Shapefiles:"
 echo " ---------|----------------|-------------"
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -name \*.shp -print0 | xargs -0  stat -c '%N |%s |%y'
-find ./* -type f -name \*.SHP -print0 | xargs -0  stat -c '%N |%s |%y'
 
 echo ""
 echo ""
 echo "PDFs:"
 echo " ---------|----------------|-------------"
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -name \*.pdf -print0 | xargs -0  stat -c '%N |%s |%y'
-find ./* -type f -name \*.PDF -print0 | xargs -0  stat -c '%N |%s |%y'
 
 echo ""
 echo ""
 echo "ZIP files:"
 echo " ---------|----------------|-------------"
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -name \*.zip -print0 | xargs -0  stat -c '%N |%s |%y'
-find ./* -type f -name \*.ZIP -print0 | xargs -0  stat -c '%N |%s |%y'
 
 echo ""
 echo ""
 echo "MDB files:"
 echo " ---------|----------------|-------------"
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -name \*.mdb -print0 | xargs -0  stat -c '%N |%s |%y'
-find ./* -type f -name \*.MDB -print0 | xargs -0  stat -c '%N |%s |%y'
 
 echo ""
 echo ""
 echo "GDB files:"
 echo " ---------|----------------|-------------"
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type d -name \*.gdb -print0 | xargs -0  stat -c '%N |%s |%y'
-find ./* -type d -name \*.GDB -print0 | xargs -0  stat -c '%N |%s |%y'
 echo ""
 echo ""
 echo ""
@@ -96,7 +76,6 @@ echo ""
 echo ""
 echo "ZIP file contents:"
 echo " ---------|----------------|-------------"
-find ./* -type f -name \*.zip |while read D; do cd "$D"; echo "$D"; unzip -lv "$D"; echo ""; echo ""; echo "******************************"; done
 
 </pre>
 

@@ -1,9 +1,5 @@
 ---
 title: My thoughts exactly
-author: John C. Zastrow
-type: post
-date: 2008-07-05T21:47:36+00:00
-url: /2008/07/05/my-thoughts-exactly/
 categories:
   - Thoughts
 
@@ -21,7 +17,6 @@ SunnComm Says Pointing to Shift Key &#8216;Possible Felony&#8217;
 Posted by CowboyNeal on Thursday October 09, @05:56PM  
 </i></b>  
 from the same-shift-not-different-dmca dept.  
-The Importance of writes &#8220;A couple of weeks ago BMG released an audio CD with a new type of DRM.**  
 Earlier this week, a computer science graduate student at Princeton  
 wrote a report showing the DRM was ineffective &#8211; it could easily be  
 defeated by use of the &#8216;shift&#8217; key.** The stock of the DRM company (SunnComm) has since fallen by 20%. **Now,  

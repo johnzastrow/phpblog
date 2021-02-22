@@ -1,9 +1,5 @@
 ---
 title: List my files
-author: John C. Zastrow
-type: post
-date: 2012-06-15T11:14:58+00:00
-url: /2012/06/15/list-my-files/
 categories:
   - Data processing
   - Linux
@@ -18,8 +14,6 @@ So, back in 2002 I made this little script. Enjoy.
 # listfiles.sh
 
 # Variables pretty self explanatory, S is seconds
-dater=$(date +%Y-%m-%d)
-dayer=$(date +%a)
 namer=$(hostname)
 startdir=$(pwd)
 
@@ -41,10 +35,8 @@ echo ""
 
 # Sometimes I care what all the directories are
 echo "All Directories are:"
-find ./* -type d
 echo " --------------------------------------"
 echo ""
-echo "Searched on:" $(date)
 echo "On system:" $namer
 echo "From the directory:" $startdir
 echo " --------------------------------------"
@@ -52,7 +44,6 @@ echo ""
 
 # Output found files in a list that Excel would appreciate
 echo "Filename|Filesize (bytes)|Modified"
-find ./* -type f -print0 | xargs -0  stat -c '%N |%s |%y'
 
 </pre>
 

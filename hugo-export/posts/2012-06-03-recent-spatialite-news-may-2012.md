@@ -1,9 +1,5 @@
 ---
 title: Recent Spatialite News May 2012
-author: John C. Zastrow
-type: post
-date: 2012-06-03T13:35:43+00:00
-url: /2012/06/03/recent-spatialite-news-may-2012/
 categories:
   - Data processing
   - Database
@@ -12,9 +8,7 @@ categories:
   - Spatialite
 
 ---
-The primary outlet for spatialite news and changes is the <a href="https://groups.google.com/group/spatialite-users" target="_blank">Google Groups Spatialite user mailing list</a>. This is a low-barrier place to announce things. But it can be a little tough to use to understand the <a href="https://www.gaia-gis.it/fossil/libspatialite/timeline" target="_blank">trajectory</a> of the project. So, I might take some time every now and then to re-post interesting updates from the mailing list here. I&#8217;ll cook them down and edit them to my taste &#8211; so be sure to check the original sources for the official versions. Please note this post and others like it are not a changelog or formal announcements. Some links to related &#8211; but perhaps older -formal changelogs are <a href="http://www.gaia-gis.it/spatialite-3.0.0-BETA/changelog.html" target="_blank" class="broken_link">[here]</a> and <a href="https://launchpad.net/ubuntu/+source/spatialite/+changelog" target="_blank">[here]</a>.
 
-Update: the second link above is from the <a href="https://launchpad.net/ubuntu/+source/spatialite" target="_blank">Ubuntu launchpad</a> itself. It&#8217;s nice to see them tracking spatialite so closely. They&#8217;ve even got an RC packages up when most repos are much further behind it seems.
 
 **May 24, 2012 &#8211; Recent highlights from the libspatialite source repository at <https://www.gaia-gis.it/fossil/libspatialite/timeline>**
 
@@ -27,7 +21,6 @@ Update: the second link above is from the <a href="https://launchpad.net/ubuntu/
 
 Sandro (a.furieri ) mentioned on March 7 to the list that libspatialite 3.1.0 was soon to be released. It seems the major focus is to tighten up the code with testing and to introduce a few new features.  Sandro writes in an earlier message,
 
-> [Brad Hard]&#8217;s the author of the test coverage: Brad has spent many months of precious work so to develop the full coverage, and he deserves full credit for this 😀 Never forget: if SpatiaLite is now a robustly engineered library, it&#8217;s mainly thank to Brad&#8217;s wise contributions.
 
 Sandro also writes in another message, &#8220;Hi List, I&#8217;m glad to announce you all that version 3.1.0 is coming soon :-)” with following edited summary.
 

@@ -1,9 +1,5 @@
 ---
 title: X windows with Cygwin
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:33:04+00:00
-url: /2008/07/05/x-windows-with-cygwin/
 categories:
   - Linux
 

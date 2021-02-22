@@ -1,9 +1,5 @@
 ---
 title: Auto File transfer/copying with SCP
-author: John C. Zastrow
-type: post
-date: 2008-09-19T18:45:49+00:00
-url: /2008/09/19/auto-file-transfercopying-with-scp/
 categories:
   - Uncategorized
 

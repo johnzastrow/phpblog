@@ -1,9 +1,5 @@
 ---
 title: EPA Supports WATERS Geospatial data through OGC WMS/WFS Services
-author: John C. Zastrow
-type: post
-date: 2008-08-06T02:58:27+00:00
-url: /2008/08/05/epa-supports-waters-geospatial-data-through-ogc-wmswfs-services/
 categories:
   - GIS
   - Web

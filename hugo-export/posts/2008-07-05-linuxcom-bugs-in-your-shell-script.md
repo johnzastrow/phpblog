@@ -1,9 +1,5 @@
 ---
 title: 'Linux.com: Bugs in your shell script?'
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:09:45+00:00
-url: /2008/07/05/linuxcom-bugs-in-your-shell-script/
 categories:
   - Linux
 

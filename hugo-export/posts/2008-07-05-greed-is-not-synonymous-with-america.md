@@ -1,9 +1,5 @@
 ---
 title: Greed is not synonymous with America
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:14:24+00:00
-url: /2008/07/05/greed-is-not-synonymous-with-america/
 categories:
   - Thoughts
 
@@ -58,7 +54,6 @@ all the power you&#8217;ve&#8230; jammed right up her (expletive) for (expletive
 Other tapes document traders&#8217; nefarious plans such as sending power  
 away from areas that needed it, manufacturing grid congestion that  
 Enron would later be paid to alleviate. They also capture the hope that  
-then-candidate George W. Bush might someday appoint Ken Lay as U.S.  
 energy secretary. 
 
 &#8220;How great would that be for all the players in the market?&#8221; one asked. 

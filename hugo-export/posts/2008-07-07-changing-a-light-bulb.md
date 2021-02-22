@@ -1,9 +1,5 @@
 ---
 title: Changing a light bulb
-author: John C. Zastrow
-type: post
-date: 2008-07-08T03:00:53+00:00
-url: /2008/07/07/changing-a-light-bulb/
 categories:
   - Thoughts
 

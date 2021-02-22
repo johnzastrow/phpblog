@@ -1,9 +1,5 @@
 ---
 title: Tables of Tables from MySQL
-author: John C. Zastrow
-type: post
-date: 2011-04-21T20:47:57+00:00
-url: /2011/04/21/tables-of-tables-from-mysql/
 categories:
   - Database
   - Uncategorized
@@ -36,12 +32,10 @@ if($myrow=mysql\_fetch\_array($describeTable))
 do  
 {  
 $field = $myrow[&#8220;Field&#8221;];  
-$type = $myrow[&#8220;Type&#8221;];  
 $null = $myrow[&#8220;Null&#8221;];  
 $key = $myrow[&#8220;Key&#8221;];  
 $default = $myrow[&#8220;Default&#8221;];  
 $extra = $myrow[&#8220;Extra&#8221;];  
-echo &#8220;$field \t $type \t $null \t $key \t $default \t $extra \n&#8221;;  
 }  
 while ($myrow=mysql\_fetch\_array($describeTable));  
 }  

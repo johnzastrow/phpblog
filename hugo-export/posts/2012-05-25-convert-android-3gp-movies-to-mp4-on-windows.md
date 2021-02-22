@@ -1,9 +1,5 @@
 ---
 title: Convert Android .3GP movies to .MP4 on windows
-author: John C. Zastrow
-type: post
-date: 2012-05-25T21:22:13+00:00
-url: /2012/05/25/convert-android-3gp-movies-to-mp4-on-windows/
 categories:
   - Data processing
   - Home and Family
@@ -38,15 +34,10 @@ Step 4. Put the script below into the same /bin directory because you are lazy
 \# Global script variables block  
 ############################  
 \# Date and other variables pretty self explanatory, S is seconds  
-\# date format is currently YYYYMMDD_HHMMSS  
-dater=$(date)  
-dayer=$(date +%a%F%H%m)  
 namer=$(whoami)  
 hoster=$(hostname)  
 directory=$(pwd)  
-filenamer=$(date +%a\_%F\_%H\_%M\_%S)\_3gp\_convertlog  
 \# sets day of the week  
-set $(date)  
 logger=$filenamer.txt  
 ############################  
 \# END Global script variables block  
@@ -65,7 +56,6 @@ echo &#8220;[START] &#8221; >>$logger
 echo &#8221; &#8221; >>$logger  
 echo &#8221; &#8221; >>$logger  
 echo &#8220;\***\****\*\\*\* START RUN LOG HEADER \*\*\***\***\***\**** &#8221; >> $logger  
-echo &#8220;Dater: &#8221; $dater >> $logger  
 echo &#8220;Username: &#8221; $namer >> $logger  
 echo &#8220;Computer: &#8221; $hoster >> $logger  
 echo &#8220;Directory: &#8221; $directory >> $logger  
@@ -172,7 +162,6 @@ Change: 2012-05-24 14:44:14.228090700 -0400
 ~~~~~~~~~~~~~ START FILES IN ARCHIVE VIDEO0001.3gp ~~~~~~~~~~~
 ffmpeg version N-40824-g31dfe20 Copyright (c) 2000-2012 the FFmpeg developers
  built on May 19 2012 00:45:59 with gcc 4.6.3
- configuration: --enable-gpl --enable-version3 --disable-w32threads --enable-runtime-cpudetect --enable-avisynth --enable-bzlib --enable-frei0r --enable-libass --enable-libcelt --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libfreetype --enable-libgsm --enable-libmp3lame --enable-libnut --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libutvideo --enable-libvo-aacenc --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libxavs --enable-libxvid --enable-zlib
  libavutil 51. 53.100 / 51. 53.100
  libavcodec 54. 21.101 / 54. 21.101
  libavformat 54. 5.100 / 54. 5.100
@@ -208,7 +197,6 @@ Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'VIDEO0001.3gp':
 [libx264 @ 03aa6400] using cpu capabilities: MMX2 SSE2Fast SSSE3 FastShuffle SSE4.2 AVX
 [libx264 @ 03aa6400] profile High, level 3.1
 [libx264 @ 03aa6400] 264 - core 120 r2164 da19765 - H.264/MPEG-4 AVC codec - Copyleft 2003-2012 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
-strptime() unavailable on this system, cannot convert the date string.
 Output #0, mp4, to 'VIDEO0001.3gp.mp4':
  Metadata:
  major_brand : 3gp4

@@ -1,9 +1,5 @@
 ---
 title: The all powerful find command
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:46:44+00:00
-url: /2008/07/05/the-all-powerful-find-command/
 categories:
   - Linux
 
@@ -18,14 +14,10 @@ found file. Here are some of the most useful search criteria options:
 
 -name pattern Find files with names that match the pattern.  
 -size [+|-] n Find files larger or smaller than a certain size.  
--atime [+|-] n Find files accessed before or after a certain date.  
--mtime [+|-] n Find files modified before or after a certain date.  
--type filetype Find only regular files or only directories.
 
 And here are the actions that can be applied to found files:
 
 -print Print just the names of matching files.  
--ls Print the names, dates, sizes, and so on of matching files.  
 -exec command Execute a command with the file name as input.  
 -ok command Same as -exec, but asks for confirmation first.
 

@@ -1,9 +1,5 @@
 ---
 title: Gotta love interop
-author: John C. Zastrow
-type: post
-date: 2008-07-10T03:15:08+00:00
-url: /2008/07/09/gotta-love-interop/
 categories:
   - GIS
 

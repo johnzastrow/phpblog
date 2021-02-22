@@ -1,9 +1,5 @@
 ---
 title: My MySQL latest config file
-author: John C. Zastrow
-type: post
-date: 2011-04-29T17:07:38+00:00
-url: /2011/04/29/my-mysql-latest-config-file-3/
 categories:
   - Database
   - Linux
@@ -115,7 +111,6 @@ max_connections=200
 
 \# Query cache, disabled for now  
 \# query\_cache\_size = 0  
-\# query\_cache\_type = 1  
 \# query\_cache\_limit = 2M&nbsp; 
 
 \# Query cache is used to cache SELECT results and later return them  
@@ -275,7 +270,6 @@ max\_allowed\_packet = 16M
 [mysql]  
 no-auto-rehash  
 \# Remove the next comment character if you are not familiar with SQL  
-#safe-updates
 
 [myisamchk]  
 key\_buffer\_size = 128M  

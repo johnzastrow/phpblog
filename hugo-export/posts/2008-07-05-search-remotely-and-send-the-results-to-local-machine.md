@@ -1,9 +1,5 @@
 ---
 title: Search remotely and send the results to local machine
-author: John C. Zastrow
-type: post
-date: 2008-07-06T00:15:11+00:00
-url: /2008/07/05/search-remotely-and-send-the-results-to-local-machine/
 categories:
   - Linux
 

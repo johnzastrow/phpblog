@@ -1,9 +1,5 @@
 ---
 title: Bash shell script for creating a poor man’s CD-ROM (removable media) catalog for linux
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:42:10+00:00
-url: /2008/07/05/bash-shell-script-for-creating-a-poor-mans-cd-rom-removable-media-catalog-for-linux/
 categories:
   - Linux
 
@@ -42,7 +38,6 @@ echo &#8220;&#8212;&#8212;&#8211; <<<<END DISC ENTRY>>> &#8212;&#8212;&#8212;&#8
 echo &#8221; &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8221; >> $disk  
 echo &#8221; &#8221; >> $disk
 
-\# keeps only relevant columns from ls, and date is in a fixed length format which is understandable  
 \# by M$ Office products if needed  
 ls -ghGR &#8211;full-time /mnt/cdrom | awk &#8216;{ print $1 &#8220;t&#8221; $3 &#8220;t&#8221;$4 &#8221; &#8221; $5 &#8220;t&#8221;$7 $8 $9 $10 $11 }&#8217;>> $disk
 

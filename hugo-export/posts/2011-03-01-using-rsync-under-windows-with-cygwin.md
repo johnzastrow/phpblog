@@ -1,9 +1,5 @@
 ---
 title: Using Rsync under Windows with Cygwin
-author: John C. Zastrow
-type: post
-date: 2011-03-01T21:35:47+00:00
-url: /2011/03/01/using-rsync-under-windows-with-cygwin/
 categories:
   - Uncategorized
 

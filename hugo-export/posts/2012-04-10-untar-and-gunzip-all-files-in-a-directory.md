@@ -1,9 +1,5 @@
 ---
 title: Untar and gunzip all files in a directory
-author: John C. Zastrow
-type: post
-date: 2012-04-11T02:03:00+00:00
-url: /2012/04/10/untar-and-gunzip-all-files-in-a-directory/
 categories:
   - Data processing
   - Linux
@@ -25,15 +21,10 @@ I needed a little script to expand a bunch of tarred and gzipped files in a dire
  # Global script variables block
  ############################
  # Date and other variables pretty self explanatory, S is seconds
- # date format is currently YYYYMMDD_HHMMSS
- dater=$(date)
- dayer=$(date +%a%F%H%m)
  namer=$(whoami)
  hoster=$(hostname)
  directory=$(pwd)
- filenamer=$(date +%a_%F_%H_%M_%S)_untgzlog
  # sets day of the week
- set $(date)
  logger=$filenamer.txt
  ############################
  # END Global script variables block
@@ -53,7 +44,6 @@ echo "[START]" &gt;&gt;$logger
  echo "" &gt;&gt;$logger
  echo "" &gt;&gt;$logger
  echo "********** START RUN LOG HEADER ***************" &gt;&gt; $logger
- echo "Dater:" $dater &gt;&gt; $logger
  echo "Username:" $namer &gt;&gt; $logger
  echo "Computer:" $hoster &gt;&gt; $logger
  echo "Directory:" $directory &gt;&gt; $logger

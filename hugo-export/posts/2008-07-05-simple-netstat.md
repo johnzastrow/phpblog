@@ -1,9 +1,5 @@
 ---
 title: Simple netstat
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:32:20+00:00
-url: /2008/07/05/simple-netstat/
 categories:
   - Linux
 

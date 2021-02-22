@@ -1,9 +1,5 @@
 ---
 title: Example with PHP and Spatialite, part 1
-author: John C. Zastrow
-type: post
-date: 2012-01-16T14:47:10+00:00
-url: /2012/01/16/example-with-php-and-spatialite-part-1/
 categories:
   - Data processing
   - Database
@@ -20,7 +16,6 @@ So, PHP supports SQLite out of the box (<a href="http://www.sqlite.org/" target=
 
 I think this fits my use cases just fine as I just want to hang out some very basic utility services that can run on the &#8220;single beige box in the corner&#8221; or the &#8220;beige cloud in the sky&#8221; with few resources needed. First, I want to create a simple REST service that, when passed a pair of long/lat coordinates, will do nothing but return that name of the county they are in. Then I&#8217;ll do one for watershed identifiers (<a href="http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/ngmc" target="_blank">USDA WBD HUC12</a> to be exact), and eventually maybe I&#8217;ll work up to a nearest place service (<a href="http://www.geonames.org/" target="_blank">http://www.geonames.org/</a>) and so on. Maybe even some downstream/upstream routing with Spatialite&#8217;s network utilities <a href="http://www.gaia-gis.it/spatialite-2.3.1/spatialite-network-2.3.1.html" target="_blank" class="broken_link">[1]</a>, <a href="http://www.gaia-gis.it/gaia-sins/Using-Routing.pdf" target="_blank">[2]</a>, <a href="http://www.gaia-gis.it/spatialite-2.4.0-4/spatialite-cookbook/html/dijkstra.html" target="_blank" class="broken_link">[3]</a>.
 
-Of course, these are spatial functions so I&#8217;m using the spatial extension to SQLite called Spatialite found at <a href="http://www.gaia-gis.it/gaia-sins/" target="_blank">http://www.gaia-gis.it/gaia-sins/</a>. **_I find Spatialite to be a profoundly elegant amalgam of existing projects (SQLite and GEOS) and new, efficient and pragmatic programming that fills an empty niche._** Here that niche is don&#8217;t make me deploy anything more than I need. I simply want some basic, re-usable services that don&#8217;t do much, including have their data updated &#8211; and I don&#8217;t want to run a <a href="http://postgis.refractions.net/" target="_blank">heavy spatial infrastructure</a> just to cheaply answer some basic questions on a $6/month virtual, private, cloud LA<span style="text-decoration: line-through;">M</span>P box with 256MB of memory or this little Pentium 4 appliance running in my snack drawer at work.
 
 So, I began compiling spatialite, and at the time I was using 3.0beta1a, so I just kept running with it. I&#8217;m still learning the basics of spatialite so I dinked around a bit. Then I followed the instructions for getting spatialite running within PHP  <a href="http://www.gaia-gis.it/spatialite-2.4.0-4/spatialite-cookbook/html/php.html" target="_blank" class="broken_link">[here]</a> and/or <a href="http://www.gaia-gis.it/spatialite-2.4.0-4/splite-php.html" target="_blank" class="broken_link">[here]</a> (not sure which one is the official guide. The site has been migrating to a new infrastructure lately).
 
@@ -114,7 +109,6 @@ while ($row = $rs->fetchArray())
 \# read the result set  
 $msg = &#8220;Inserted &#8220;;  
 $msg .= $row[0];  
-$msg .= &#8221; entities of type &#8220;;  
 $msg .= $row[1];  
 $msg .= &#8221; SRID=&#8221;;  
 $msg .= $row[2];  
@@ -149,7 +143,6 @@ while ($row = $rs->fetchArray())
 \# read the result set  
 $msg = &#8220;Inserted &#8220;;  
 $msg .= $row[0];  
-$msg .= &#8221; entities of type &#8220;;  
 $msg .= $row[1];  
 $msg .= &#8221; SRID=&#8221;;  
 $msg .= $row[2];  
@@ -184,7 +177,6 @@ while ($row = $rs->fetchArray())
 \# read the result set  
 $msg = &#8220;Inserted &#8220;;  
 $msg .= $row[0];  
-$msg .= &#8221; entities of type &#8220;;  
 $msg .= $row[1];  
 $msg .= &#8221; SRID=&#8221;;  
 $msg .= $row[2];  

@@ -1,9 +1,5 @@
 ---
 title: 'Exporting and Importing in Oracle: A Quick Start'
-author: John C. Zastrow
-type: post
-date: 2008-09-05T19:35:00+00:00
-url: /2008/09/05/exporting-and-importing-in-oracle-a-quick-start/
 categories:
   - Database
 
@@ -53,7 +49,6 @@ USERID     username/password          FULL         export e
 BUFFER     size of data buffer        OWNER        list of owner usernames  
 FILE       output files (EXPDAT.DMP)  TABLES       list of table names  
 COMPRESS   import into one extent (Y) RECORDLENGTH length of IO record  
-GRANTS     export grants (Y)          INCTYPE      incremental export type  
 INDEXES    export indexes (Y)         RECORD       track incr. export (Y)  
 DIRECT     direct path (N)            TRIGGERS     export triggers (Y)  
 LOG        log file of screen output  STATISTICS   analyze objects (ESTIMATE)  
@@ -98,7 +93,6 @@ BUFFER   size of data buffer         FROMUSER     list of owner us
 FILE     input files (EXPDAT.DMP)    TOUSER       list of usernames  
 SHOW     just list file contents (N) TABLES       list of table names  
 IGNORE   ignore create errors (N)    RECORDLENGTH length of IO record  
-GRANTS   import grants (Y)           INCTYPE      incremental import type  
 INDEXES  import indexes (Y)          COMMIT       commit array insert (N)  
 ROWS     import data rows (Y)        PARFILE      parameter filename  
 LOG      log file of screen output   CONSTRAINTS  import constraints (Y)  
@@ -106,7 +100,6 @@ DESTROY                overwrite tablespace data file (N)
 INDEXFILE              write table/index info to specified file  
 SKIP\_UNUSABLE\_INDEXES  skip maintenance of unusable indexes (N)  
 FEEDBACK               display progress every x rows(0)  
-TOID_NOVALIDATE        skip validation of specified type ids  
 FILESIZE               maximum size of each dump file  
 STATISTICS             import precomputed statistics (always)  
 RESUMABLE              suspend when a space related error is encountered(N)  

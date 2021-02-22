@@ -1,9 +1,5 @@
 ---
 title: gzip all directories in a directory
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:44:13+00:00
-url: /2008/07/05/gzip-all-directories-in-a-directory/
 categories:
   - Linux
 
@@ -54,7 +50,6 @@ do dir=\`echo $dir | tr -d &#8216;/&#8217;\`
 echo $dir
 
 \# for zipping, -r recurse into directories  
-\# and -u update new or changed files  
 \# echo &#8220;zip -r&#8221; $dir.zip $dir&#8217;/*&#8217;  
 zip -ru $dir.zip $dir  
 \# for gzipping  

@@ -1,9 +1,5 @@
 ---
 title: Reseting OpenSSH server keys on a server
-author: John C. Zastrow
-type: post
-date: 2011-10-18T14:41:45+00:00
-url: /2011/10/18/reseting-openssh-server-keys-on-a-server/
 categories:
   - Uncategorized
 
@@ -14,7 +10,6 @@ categories:
   </h1>
   
   <p class="headline_meta">
-    by <span class="author vcard fn">Vivek Gite</span> on <abbr class="published" title="2008-06-15">June 15, 2008</abbr> · <span><a href="http://www.cyberciti.biz/faq/howto-regenerate-openssh-host-keys/#comments" rel="nofollow">4 comments</a></span>
   </p></p>
 </div>
 
@@ -31,7 +26,6 @@ ssh connections shouldn&#8217;t be interrupted?
 
 ## Step # 1: Delete old ssh host keys
 
-Login as the root and type the following command:  
 
 
 <pre># /bin/rm /etc/ssh/ssh_host_*</pre>
@@ -50,9 +44,7 @@ Sample output:
 Creating SSH2 DSA key; this may take some time ...
 Restarting OpenBSD Secure Shell server: sshd.</pre>
 
-## Step # 3: Update all ssh client(s) known_hosts files
 
-Finally, you need to update ~/.ssh/known_hosts files, otherwise everyone will see an error message:
 
 <pre>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
@@ -68,6 +60,5 @@ Offending key in /home/vivek/.ssh/known_hosts:12
 RSA host key for 202.54.xx.abc has changed and you have requested strict checking.
 Host key verification failed.</pre>
 
-Either remove [host fingerprint][1] or update the file using vi text editor.
 
  [1]: http://www.cyberciti.biz/faq/warning-remote-host-identification-has-changed-error-and-solution/

@@ -1,9 +1,5 @@
 ---
 title: 'Handy shell file lister for cygwin or *NIX'
-author: John C. Zastrow
-type: post
-date: 2008-07-05T23:59:44+00:00
-url: /2008/07/05/handy-shell-file-lister-for-cygwin-or-nix/
 categories:
   - Uncategorized
 tags:

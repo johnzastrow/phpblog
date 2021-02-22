@@ -1,9 +1,5 @@
 ---
 title: GWT Charting Kit
-author: John C. Zastrow
-type: post
-date: 2008-07-23T15:52:30+00:00
-url: /2008/07/23/gwt-charting-kit/
 categories:
   - Web
 

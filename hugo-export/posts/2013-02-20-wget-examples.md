@@ -1,9 +1,5 @@
 ---
 title: Wget examples
-author: John C. Zastrow
-type: post
-date: 2013-02-20T14:30:50+00:00
-url: /2013/02/20/wget-examples/
 categories:
   - Data processing
   - Linux

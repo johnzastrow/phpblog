@@ -1,9 +1,5 @@
 ---
 title: Optimize all tables in a database, Part 2
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:47:17+00:00
-url: /2008/07/05/optimize-all-tables-in-a-database-part-2/
 categories:
   - Database
 

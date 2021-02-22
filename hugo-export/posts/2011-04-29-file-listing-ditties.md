@@ -1,9 +1,5 @@
 ---
 title: File listing ditties
-author: John C. Zastrow
-type: post
-date: 2011-04-29T15:56:37+00:00
-url: /2011/04/29/file-listing-ditties/
 categories:
   - Linux
 
@@ -54,8 +50,6 @@ total</pre>
 
 [cce_bash]  
 #!/bin/sh  
-date > statfile.txt  
-echo -e &#8220;File\_type \t Modified\_date \t Change\_date \t File\_bytes \t File_name&#8221; >> statfile.txt  
 stat &#8211;printf &#8220;%F \t %y \t %z \t %s \t %N\n&#8221; * >> statfile.txt  
 cat statfile.txt
 

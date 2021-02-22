@@ -1,9 +1,5 @@
 ---
 title: Wish I didn’t invest in the iPad2
-author: John C. Zastrow
-type: post
-date: 2011-07-18T03:41:54+00:00
-url: /2011/07/17/wish-i-didnt-invest-in-the-ipad2/
 categories:
   - Home and Family
 

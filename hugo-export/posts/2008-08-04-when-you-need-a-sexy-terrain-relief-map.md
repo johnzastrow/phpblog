@@ -1,9 +1,5 @@
 ---
 title: When you need a sexy terrain relief map
-author: John C. Zastrow
-type: post
-date: 2008-08-04T12:21:03+00:00
-url: /2008/08/04/when-you-need-a-sexy-terrain-relief-map/
 categories:
   - GIS
 

@@ -1,9 +1,5 @@
 ---
 title: Using screen in Linux to save your bacon
-author: John C. Zastrow
-type: post
-date: 2010-03-01T04:08:58+00:00
-url: /2010/02/28/using-screen-in-linux-to-save-your-bacon/
 categories:
   - Linux
 
@@ -152,7 +148,6 @@ As a consultant, I find it important to keep track of what I do to someone’s s
 
 ### Linux Screen Tips
 
-Just wanted to mention to other cool tricks you can do with screen. Screen can monitor a window for activity or lack thereof. This is great if you are downloading large files, compiling, or watching for output. If you are downloading something or compiling, you can watch for silence. To start the monitor, go to the screen you want to monitor and use “Ctrl-A” “M” to look for activity or “Ctrl-A” “_” to monitor for silence. Then open or switch to a new window. When the monitor detects activity or silence, you will get an alert at the bottom with the window number. To quickly go to that window, use “Ctrl-A” “ (thats a quote mark, ctrl-a then a “). After you do this, just type in the number of the window and enter. To stop monitoring, go to that window and undo the monitor with the same command. For example, to stop monitoring for activity you would use “Ctrl-A” “M” again.
 
 ### Reference
 

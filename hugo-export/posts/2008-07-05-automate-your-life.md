@@ -1,9 +1,5 @@
 ---
 title: Automate your life
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:17:21+00:00
-url: /2008/07/05/automate-your-life/
 categories:
   - Linux
 
@@ -86,7 +82,6 @@ crontab [-u user] { -e | -l | -r }
 
 -r (delete user&#8217;s crontab)
 
-So, if you type:
 
 crontab -l
 
@@ -101,7 +96,6 @@ crontab job?**_
 While you can edit the crontab file directly through telnet, I&#8217;ve found that the  
 easiest way for a beginner to start a crontab job is to create a text file  
 containing your crontab instructions, upload it to your main directory, telnet  
-into your system, and then just type:
 
 
 
@@ -146,7 +140,6 @@ morning.
 
 
 Say you wanted to execute  
-it 4 times a day, you would type in:
 
 
 
@@ -197,7 +190,6 @@ _**How can I tell that it&#8217;s working?**_
 Simple, after you have  
 executed the text file with your one line crontab, just
 
-type:
 
 
 
@@ -227,7 +219,6 @@ crontab file through telnet?**_
 Yes, however, I prefer to  
 just delete the current crontab file and create a new
 
-one with a new text file. Just type:
 
 
 
@@ -245,7 +236,6 @@ _**How do I delete a crontab file?**_
 
 
 This is easy! At the  
-telnet prompt, type:
 
 
 

@@ -1,9 +1,5 @@
 ---
 title: Mounting your old linux HD to recover files
-author: John C. Zastrow
-type: post
-date: 2008-07-06T00:13:58+00:00
-url: /2008/07/05/mounting-your-old-linux-hd-to-recover-files/
 categories:
   - Linux
 
@@ -20,9 +16,6 @@ four partitions on my old drive, the root partition on my second drive
 was at hdd4. So, I needed to create a mount point to mount my drive to.  
 For simplicity, I chose to mkdir /mnt/hdd4. 
 
-As my old drive was of the ext3 filesystem type, so all mounting  
-operations need to be told what type (-t for mount) the drive is. To  
-mount this partitiion, as root I typed mount -t ext3 /dev/hdd4  
 /mnt/hdd4. I could then cd to /mnt/hdd4 and copy off my files. If I  
 wanted to reboot with the partition mounted, simply I would just add  
 something like /dev/hdd4 /mnt/hdd4 etx3 to my /etc/fstab file.

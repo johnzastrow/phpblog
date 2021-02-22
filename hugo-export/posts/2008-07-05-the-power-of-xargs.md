@@ -1,9 +1,5 @@
 ---
 title: The power of xargs
-author: John C. Zastrow
-type: post
-date: 2008-07-06T00:16:30+00:00
-url: /2008/07/05/the-power-of-xargs/
 categories:
   - Linux
 
@@ -15,7 +11,6 @@ and not have to write a script to do it. xargs can take care of things
 right on the command line. Though I focus mainly on files in this  
 article (it&#8217;s what I use it for almost exclusively), it&#8217;s important to  
 remember that xargs acts on standard input, which could mean lines  
-redirected from /var/log/messages or urls or whatever else you can  
 manage to point in its direction.
 
 $ > rpm -qa | grep mozilla | xargs -n1 -p rpm -e &#8211;nodeps 
@@ -30,14 +25,11 @@ you from having to manually list the packages containing the string
 &#8220;mozilla,&#8221; then manually running separate &#8220;rpm -e&#8221; commands against  
 them one at a time. 
 
-$ > find / -name *.mp3 -type f -print | xargs tar -cvzf mp3z.tar.gz 
 
 This finds all the mp3z on my entire drive and puts &#8217;em all in a tar  
 file, and then I can untar them wherever I want 🙂 I actually could&#8217;ve  
 piped that xargs &#8220;tar&#8221; line into a &#8220;tar xvzf&#8221; line to automatically  
-untar them. I also could&#8217;ve left out the &#8220;-type f&#8221; if I had grip set up  
 to use a custom directory structure that I wanted to preserve. You get  
-the idea 🙂 PS &#8211; this works for other types of files, too, like finding  
 all the files that belong to you, tarring them and sending the tar to a  
 backup somewhere, so it does have legitimate use. 
 
@@ -45,10 +37,8 @@ $> ls *.mp3 | xargs -n1 -i cp {} backup/.
 
 This command takes all of the MP3 files in the current directory, and  
 feeds them one at a time (-n1) to the cp command, where the file  
-argument coming in from ls will replace the curly braces. Notice I  
 didn&#8217;t specify a string with &#8220;-i.&#8221; I don&#8217;t think I&#8217;ve ever had to. The  
 default string that xargs will look to replace when using the -i flag  
-is the curly braces. As your command lines get a little more complex,  
 or you start using xargs in scripts, there are a couple of useful  
 troubleshooting flags you may find helpful if you run into issues. One,  
 the -p flag, will prompt you for a yes or no before executing a command  
@@ -78,9 +68,7 @@ Far clearer. The use for xargs is cases where you want to use tools
 (such as GNU Grep) which have limits on the amount of input they can  
 take. For example:
 
-grep foo \`find / -type f -print\` 
 
 might be too much for grep to cope with;
 
-find / -type f -print | xargs grep foo  
 > ls *.mp3 | xargs -n1 -i cp {} backup/.

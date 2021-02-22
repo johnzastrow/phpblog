@@ -1,9 +1,5 @@
 ---
 title: Handy database documenter/profiler for mysql, cont.
-author: John C. Zastrow
-type: post
-date: 2011-07-19T03:53:55+00:00
-url: /2011/07/18/handy-database-documenterprofiler-for-mysql-cont/
 categories:
   - Database
 

@@ -1,9 +1,5 @@
 ---
 title: Read the Descriptions from all columns in MS Access database
-author: John C. Zastrow
-type: post
-date: 2011-07-25T14:15:18+00:00
-url: /2011/07/25/read-the-descriptions-from-all-columns-in-ms-access-database/
 categories:
   - Database
   - GIS
@@ -32,7 +28,6 @@ Set DB = CurrentDb()
 
 For Each tbl In DB.TableDefs  
 If Left$(tbl.Name, 4) <> &#8220;MSys&#8221; Then  
-&#8216;Debug.Print &#8220;In Table &#8221; & tbl.Name &#8216;& &#8221;      &#8221; & tbl.DateCreated & &#8221;      &#8221; & tbl.LastUpdated & &#8221;     &#8221; & tbl.RecordCount  
 allDesc = allDesc & vbNewLine & &#8220;Table:&#8221; & tbl.Name  
 &#8216; optional code to print all the fields  
 On Error Resume Next  

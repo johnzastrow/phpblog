@@ -1,9 +1,5 @@
 ---
 title: 'SQL: My Oracle quick reference'
-author: John C. Zastrow
-type: post
-date: 2008-07-05T23:52:56+00:00
-url: /2008/07/05/sql-my-oracle-quick-reference-2/
 categories:
   - Database
 

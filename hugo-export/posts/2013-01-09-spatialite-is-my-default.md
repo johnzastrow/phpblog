@@ -1,9 +1,5 @@
 ---
 title: Spatialite is my default
-author: John C. Zastrow
-type: post
-date: 2013-01-10T04:47:15+00:00
-url: /2013/01/09/spatialite-is-my-default/
 categories:
   - Data processing
   - Database
@@ -12,7 +8,6 @@ categories:
   - Uncategorized
 
 ---
-Like [James Fee][1]{.broken_link}, and a few <a href="http://blog.safe.com/2010/09/the-future-looks-bright-for-spatiallite/" target="_blank">others</a>: I <a title="Example with PHP and Spatialite, part 1" href="http://northredoubt.com/n/2012/01/16/example-with-php-and-spatialite-part-1/" target="_blank">love</a> <a href="http://www.gaia-gis.it/gaia-sins/" target="_blank">Spatialite</a> and want to use it more. I find myself keeping maybe three 500MB .sqlite files in my Dropbox folder with my favorite and newly found data ready for use. Although I have access to and use ArcMap at home and work, I still spend a lot of time escaping the bloat and doggy performance in the warm, snappy arms of <a href="http://qgis.org/" target="_blank">Qgis</a>. Qgis works great with Spatialite (except for the aging data providers restricted to older spatialite versions – due to up-to-date with the next release of Qgis).
 
 <a href="http://northredoubt.com/n/2013/01/09/spatialite-is-my-default/spatialite_files/" rel="attachment wp-att-605"><img loading="lazy" class="alignnone size-medium wp-image-605" alt="spatialite_files" src="http://northredoubt.com/n/wp-content/uploads/2012/12/spatialite_files-300x263.png" width="300" height="263" srcset="http://northredoubt.com/n/wp-content/uploads/2012/12/spatialite_files-300x263.png 300w, http://northredoubt.com/n/wp-content/uploads/2012/12/spatialite_files-341x300.png 341w, http://northredoubt.com/n/wp-content/uploads/2012/12/spatialite_files.png 610w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
@@ -22,7 +17,6 @@ Specifically, I like the following capabilities and aspects of the software:
 
   * **Cross-platform** &#8211; Libraries and files for *NIX and Win, along with Win binaries kindly provided. The Windows stuff are always available at the main site, while eventually binaries get released in the usual Ubuntu repos (not sure about RPMs).
   * **Reuse** &#8211; it stands on the shoulders of other very successful projects and only reinvents the wheels needed for lighter weight implementations than say exist in PostGIS.
-  * **Flexible** &#8211; Being essentially Sqlite, which is just a database, Spatialite stores many types of GIS data such as rasters, vectors, etc in a single file, along with other types of non-traditional GIS data and <a href="https://groups.google.com/d/msg/spatialite-users/-/ZLiNvyv7wKoJ." target="_blank">information</a>. ** **Notice I say file (single) and not file format. I don&#8217;t like keeping track of many  different little files on disk (Shapefiles, Coverages, File geodatabases). I cut my teeth in GIS in the early-mid 1990&#8217;s enjoying the simplicity of the <a href="http://www.microimages.com" target="_blank">Microimages TNTmips</a> .RVC (raster, vector, CAD) all-in-one file format. Since coming to ESRI, I miss that simplicity. Spatialite&#8217;s ability to also store tabular data, and whatever structures I can create in those tables, means that I could even devise a way to <a href="http://gis.stackexchange.com/questions/40994/standard-for-storing-human-metadata-in-spatial-databases" target="_blank">store my metadata</a> right in the .sqlite file and never let my documentation be separated from my data again (could someone please promulgate a standard for keeping metadata in a RDBMS so that OSS tools can be built around this? UPDATE: maybe we&#8217;re <a href="https://groups.google.com/d/msg/spatialite-users/-/ZLiNvyv7wKoJ." target="_blank">one step closer</a>). Heck you could probably even store map project files right in the database alongside the data and documentation. Holy one stop shopping Batman!
 
 <figure id="attachment_603" aria-describedby="caption-attachment-603" style="width: 300px" class="wp-caption alignnone"><a href="http://northredoubt.com/n/2013/01/09/spatialite-is-my-default/qgis_project_file/" rel="attachment wp-att-603"><img loading="lazy" class="size-medium wp-image-603" alt="Simple Qgis project file loading a Spatialite layer" src="http://northredoubt.com/n/wp-content/uploads/2012/12/qgis_project_file-300x243.png" width="300" height="243" srcset="http://northredoubt.com/n/wp-content/uploads/2012/12/qgis_project_file-300x243.png 300w, http://northredoubt.com/n/wp-content/uploads/2012/12/qgis_project_file-370x300.png 370w, http://northredoubt.com/n/wp-content/uploads/2012/12/qgis_project_file.png 938w" sizes="(max-width: 300px) 100vw, 300px" /></a><figcaption id="caption-attachment-603" class="wp-caption-text">Simple Qgis project file (XML) loading a Spatialite layer</figcaption></figure>
 

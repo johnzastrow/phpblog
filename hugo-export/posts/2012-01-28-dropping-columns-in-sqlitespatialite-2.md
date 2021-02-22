@@ -1,9 +1,5 @@
 ---
 title: Dropping columns in sqlite/spatialite
-author: John C. Zastrow
-type: post
-date: 2012-01-28T23:32:00+00:00
-url: /2012/01/28/dropping-columns-in-sqlitespatialite-2/
 categories:
   - Data processing
   - Database

@@ -1,9 +1,5 @@
 ---
 title: Scheduled file copies or directory sync from local directory to FTP server
-author: John C. Zastrow
-type: post
-date: 2010-09-04T02:02:37+00:00
-url: /2010/09/03/scheduled-file-copies-or-directory-sync-from-local-directory-to-ftp-server/
 categories:
   - Linux
 

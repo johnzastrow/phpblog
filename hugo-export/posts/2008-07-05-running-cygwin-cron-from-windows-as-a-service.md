@@ -1,9 +1,5 @@
 ---
 title: Running cygwin cron from windows as a service
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:34:25+00:00
-url: /2008/07/05/running-cygwin-cron-from-windows-as-a-service/
 categories:
   - Linux
 
@@ -29,7 +25,6 @@ HOME=/
 
 0 3 \* \* * /bin/backup > /dev/null 2>&1
 
-Then type  
 crontab cronrun.txt to load your job. Type crontab -l to list your jobs
 
 The first line tells cron to run the commands in bash, second is the path cron searches for  

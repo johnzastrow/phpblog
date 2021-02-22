@@ -1,9 +1,5 @@
 ---
 title: Cross Compare SQL Server 2008 Spatial, PostgreSQL/PostGIS 1.3-1.4, MySQL 5-6
-author: John C. Zastrow
-type: post
-date: 2008-07-18T03:16:59+00:00
-url: /2008/07/17/cross-compare-sql-server-2008-spatial-postgresqlpostgis-13-14-mysql-5-6/
 categories:
   - GIS
 
@@ -19,7 +15,6 @@ Paragon wrote:
 />  
 /> We would appreciate if people could take a quick look at it and let us know  
 /> if you see any gross errors or important things we left out. Most of this  
-/> information we curled from reading the help docs of each product and from  
 /> our general familiarity with the databases and GIS products out there. We  
 /> tried to be as fair as possible.  
 />  
