@@ -1,5 +1,5 @@
 ---
-title: Bash shell script for creating a poor man’s CD-ROM (removable media) catalog for linux
+ #  Bash shell script for creating a poor man’s CD-ROM (removable media) catalog for linux
 categories:
   - Linux
 

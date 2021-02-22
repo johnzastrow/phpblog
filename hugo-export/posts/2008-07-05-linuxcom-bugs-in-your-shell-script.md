@@ -1,5 +1,5 @@
 ---
-title: 'Linux.com: Bugs in your shell script?'
+ #  'Linux.com: Bugs in your shell script?'
 categories:
   - Linux
 

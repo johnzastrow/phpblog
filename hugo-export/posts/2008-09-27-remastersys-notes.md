@@ -1,5 +1,5 @@
 ---
-title: Remastersys Notes
+ #  Remastersys Notes
 categories:
   - Linux
 

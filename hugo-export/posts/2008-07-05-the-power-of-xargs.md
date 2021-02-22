@@ -1,5 +1,5 @@
 ---
-title: The power of xargs
+ #  The power of xargs
 categories:
   - Linux
 

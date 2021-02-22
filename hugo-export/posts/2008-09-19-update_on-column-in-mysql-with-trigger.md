@@ -1,5 +1,5 @@
 ---
-title: UPDATE_ON column in MySQL with trigger
+ #  UPDATE_ON column in MySQL with trigger
 categories:
   - Uncategorized
 

@@ -1,5 +1,5 @@
 ---
-title: Changing a light bulb
+ #  Changing a light bulb
 categories:
   - Thoughts
 

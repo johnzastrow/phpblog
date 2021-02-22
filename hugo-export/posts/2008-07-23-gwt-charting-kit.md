@@ -1,5 +1,5 @@
 ---
-title: GWT Charting Kit
+ #  GWT Charting Kit
 categories:
   - Web
 

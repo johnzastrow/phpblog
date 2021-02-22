@@ -1,5 +1,5 @@
 ---
-title: Optimize all tables in a database, Part 2
+ #  Optimize all tables in a database, Part 2
 categories:
   - Database
 

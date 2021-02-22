@@ -1,5 +1,5 @@
 ---
-title: Spatialite and Spatial Indexes
+ #  Spatialite and Spatial Indexes
 categories:
   - Data processing
   - Database

@@ -1,5 +1,5 @@
 ---
-title: Accessing versioned geodata in ArcSDE with SQL
+ #  Accessing versioned geodata in ArcSDE with SQL
 categories:
   - Database
   - GIS

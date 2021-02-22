@@ -1,5 +1,5 @@
 ---
-title: Tips for using the ls command to list files in Cygwin or Linux
+ #  Tips for using the ls command to list files in Cygwin or Linux
 categories:
   - Linux
 

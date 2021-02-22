@@ -1,5 +1,5 @@
 ---
-title: gzip all directories in a directory
+ #  gzip all directories in a directory
 categories:
   - Linux
 

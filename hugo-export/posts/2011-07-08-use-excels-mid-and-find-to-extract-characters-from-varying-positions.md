@@ -1,5 +1,5 @@
 ---
-title: Use Excel’s MID and FIND to extract characters from varying positions
+ #  Use Excel’s MID and FIND to extract characters from varying positions
 categories:
   - Data processing
 

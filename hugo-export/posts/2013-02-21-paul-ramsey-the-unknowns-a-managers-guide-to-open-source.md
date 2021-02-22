@@ -1,5 +1,5 @@
 ---
-title: 'Paul Ramsey: The Unknowns: A Managers Guide to Open Source'
+ #  'Paul Ramsey: The Unknowns: A Managers Guide to Open Source'
 categories:
   - Data processing
   - Database

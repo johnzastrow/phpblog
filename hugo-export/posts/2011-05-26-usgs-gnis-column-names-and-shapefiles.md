@@ -1,5 +1,5 @@
 ---
-title: USGS GNIS column names and shapefiles
+ #  USGS GNIS column names and shapefiles
 categories:
   - Uncategorized
 

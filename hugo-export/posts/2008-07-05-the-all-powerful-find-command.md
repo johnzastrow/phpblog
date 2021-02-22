@@ -1,5 +1,5 @@
 ---
-title: The all powerful find command
+ #  The all powerful find command
 categories:
   - Linux
 

@@ -1,5 +1,5 @@
 ---
-title: MySQL Functions
+ #  MySQL Functions
 categories:
   - Database
   - Uncategorized

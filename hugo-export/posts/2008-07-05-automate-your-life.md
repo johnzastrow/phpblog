@@ -1,5 +1,5 @@
 ---
-title: Automate your life
+ #  Automate your life
 categories:
   - Linux
 

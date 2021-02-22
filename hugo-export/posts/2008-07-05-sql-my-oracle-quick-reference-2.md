@@ -1,5 +1,5 @@
 ---
-title: 'SQL: My Oracle quick reference'
+ #  'SQL: My Oracle quick reference'
 categories:
   - Database
 

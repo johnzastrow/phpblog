@@ -1,5 +1,5 @@
 ---
-title: Untar and gunzip all files in a directory
+ #  Untar and gunzip all files in a directory
 categories:
   - Data processing
   - Linux

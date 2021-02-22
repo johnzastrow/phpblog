@@ -1,5 +1,5 @@
 ---
-title: Useful wireless network commands for Debian 3
+ #  Useful wireless network commands for Debian 3
 categories:
   - Linux
 

@@ -1,5 +1,5 @@
 ---
-title: Mounting your old linux HD to recover files
+ #  Mounting your old linux HD to recover files
 categories:
   - Linux
 

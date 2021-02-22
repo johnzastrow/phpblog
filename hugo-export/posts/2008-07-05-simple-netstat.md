@@ -1,5 +1,5 @@
 ---
-title: Simple netstat
+ #  Simple netstat
 categories:
   - Linux
 

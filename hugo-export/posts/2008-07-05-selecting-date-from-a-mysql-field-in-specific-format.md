@@ -1,5 +1,5 @@
 ---
-title: Selecting Date from a Mysql field in specific format
+ #  Selecting Date from a Mysql field in specific format
 categories:
   - Database
 

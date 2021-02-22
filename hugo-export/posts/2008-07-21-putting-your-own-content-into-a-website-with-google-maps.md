@@ -1,5 +1,5 @@
 ---
-title: Putting your own content into a website with Google Maps
+ #  Putting your own content into a website with Google Maps
 categories:
   - GIS
   - Web

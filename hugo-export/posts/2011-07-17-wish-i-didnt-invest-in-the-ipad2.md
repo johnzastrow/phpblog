@@ -1,5 +1,5 @@
 ---
-title: Wish I didn’t invest in the iPad2
+ #  Wish I didn’t invest in the iPad2
 categories:
   - Home and Family
 

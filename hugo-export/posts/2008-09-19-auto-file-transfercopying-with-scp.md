@@ -1,5 +1,5 @@
 ---
-title: Auto File transfer/copying with SCP
+ #  Auto File transfer/copying with SCP
 categories:
   - Uncategorized
 

@@ -1,5 +1,5 @@
 ---
-title: ogrinfo and gdalinfo script to document data
+ #  ogrinfo and gdalinfo script to document data
 categories:
   - Data processing
   - GIS

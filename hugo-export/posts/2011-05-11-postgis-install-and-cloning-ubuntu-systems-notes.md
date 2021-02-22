@@ -1,5 +1,5 @@
 ---
-title: PostGIS Install and Cloning Ubuntu Systems Notes
+ #  PostGIS Install and Cloning Ubuntu Systems Notes
 categories:
   - Database
   - Linux

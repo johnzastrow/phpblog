@@ -1,5 +1,5 @@
 ---
-title: Another automated FTP bash script
+ #  Another automated FTP bash script
 categories:
   - Linux
 

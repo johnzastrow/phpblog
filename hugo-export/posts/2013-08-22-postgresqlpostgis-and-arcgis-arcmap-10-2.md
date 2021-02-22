@@ -1,5 +1,5 @@
 ---
-title: PostgreSQL/PostGIS and ArcGIS ArcMap 10.2
+ #  PostgreSQL/PostGIS and ArcGIS ArcMap 10.2
 categories:
   - Data processing
   - Database

@@ -1,5 +1,5 @@
 ---
-title: Creating an ST_ table and view in Oracle for ArcSDE
+ #  Creating an ST_ table and view in Oracle for ArcSDE
 categories:
   - Data processing
   - Database

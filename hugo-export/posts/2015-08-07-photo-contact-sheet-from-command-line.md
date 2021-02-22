@@ -1,5 +1,5 @@
 ---
-title: Photo contact sheet from command line
+ #  Photo contact sheet from command line
 categories:
   - Cywgin
   - Data processing

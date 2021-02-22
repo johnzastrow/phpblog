@@ -1,5 +1,5 @@
 ---
-title: How to set a static IP in Ubuntu from the shell
+ #  How to set a static IP in Ubuntu from the shell
 categories:
   - Linux
 

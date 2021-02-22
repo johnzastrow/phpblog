@@ -1,5 +1,5 @@
 ---
-title: Greed is not synonymous with America
+ #  Greed is not synonymous with America
 categories:
   - Thoughts
 

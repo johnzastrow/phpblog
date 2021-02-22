@@ -1,5 +1,5 @@
 ---
-title: Remove header from a text file
+ #  Remove header from a text file
 categories:
   - Database
   - GIS

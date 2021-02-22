@@ -1,5 +1,5 @@
 ---
-title: Check for non-numeric data in mysql
+ #  Check for non-numeric data in mysql
 categories:
   - Data processing
   - Database

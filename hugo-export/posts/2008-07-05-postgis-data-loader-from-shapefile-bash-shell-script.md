@@ -1,5 +1,5 @@
 ---
-title: Postgis data loader from shapefile bash shell script
+ #  Postgis data loader from shapefile bash shell script
 categories:
   - GIS
 

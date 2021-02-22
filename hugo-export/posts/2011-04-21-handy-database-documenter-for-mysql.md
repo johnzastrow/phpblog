@@ -1,5 +1,5 @@
 ---
-title: Handy database documenter for MySQL
+ #  Handy database documenter for MySQL
 categories:
   - Database
 

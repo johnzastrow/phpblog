@@ -1,5 +1,5 @@
 ---
-title: 'Handy shell file lister for cygwin or *NIX'
+ #  'Handy shell file lister for cygwin or *NIX'
 categories:
   - Uncategorized
 tags:

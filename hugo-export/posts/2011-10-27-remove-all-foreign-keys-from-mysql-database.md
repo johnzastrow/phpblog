@@ -1,5 +1,5 @@
 ---
-title: Remove all foreign keys from MySQL database
+ #  Remove all foreign keys from MySQL database
 categories:
   - Data processing
   - Database

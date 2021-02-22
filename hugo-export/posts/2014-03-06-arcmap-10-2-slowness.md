@@ -1,5 +1,5 @@
 ---
-title: ArcMap 10.2 slowness
+ #  ArcMap 10.2 slowness
 categories:
   - Data processing
   - Database

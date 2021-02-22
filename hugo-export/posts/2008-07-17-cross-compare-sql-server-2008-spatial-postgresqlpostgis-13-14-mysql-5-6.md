@@ -1,5 +1,5 @@
 ---
-title: Cross Compare SQL Server 2008 Spatial, PostgreSQL/PostGIS 1.3-1.4, MySQL 5-6
+ #  Cross Compare SQL Server 2008 Spatial, PostgreSQL/PostGIS 1.3-1.4, MySQL 5-6
 categories:
   - GIS
 

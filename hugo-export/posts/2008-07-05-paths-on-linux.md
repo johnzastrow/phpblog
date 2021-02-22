@@ -1,5 +1,5 @@
 ---
-title: Paths on Linux
+ #  Paths on Linux
 categories:
   - Linux
 

@@ -1,5 +1,5 @@
 ---
-title: Notes from Where Camp Boston 2011
+ #  Notes from Where Camp Boston 2011
 categories:
   - Data processing
   - Database

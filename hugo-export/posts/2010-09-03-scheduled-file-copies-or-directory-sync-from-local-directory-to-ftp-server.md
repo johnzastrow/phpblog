@@ -1,5 +1,5 @@
 ---
-title: Scheduled file copies or directory sync from local directory to FTP server
+ #  Scheduled file copies or directory sync from local directory to FTP server
 categories:
   - Linux
 

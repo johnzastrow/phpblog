@@ -1,5 +1,5 @@
 ---
-title: exif from pictures for GIS
+ #  exif from pictures for GIS
 categories:
   - Data processing
   - Database

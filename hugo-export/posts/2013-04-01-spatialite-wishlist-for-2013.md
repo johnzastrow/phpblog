@@ -1,5 +1,5 @@
 ---
-title: Spatialite wishlist for 2013
+ #  Spatialite wishlist for 2013
 categories:
   - Data processing
   - Database

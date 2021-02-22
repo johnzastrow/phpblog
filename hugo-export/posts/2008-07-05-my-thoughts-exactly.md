@@ -1,5 +1,5 @@
 ---
-title: My thoughts exactly
+ #  My thoughts exactly
 categories:
   - Thoughts
 

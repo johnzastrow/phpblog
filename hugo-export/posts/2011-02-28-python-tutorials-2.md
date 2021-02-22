@@ -1,5 +1,5 @@
 ---
-title: Python Tutorials
+ #  Python Tutorials
 categories:
   - GIS
   - Linux

@@ -1,5 +1,5 @@
 ---
-title: X windows with Cygwin
+ #  X windows with Cygwin
 categories:
   - Linux
 

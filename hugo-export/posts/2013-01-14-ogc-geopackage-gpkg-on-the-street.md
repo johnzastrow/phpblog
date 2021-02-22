@@ -1,5 +1,5 @@
 ---
-title: 'OGC Geopackage [GPKG] on the street'
+ #  'OGC Geopackage [GPKG] on the street'
 categories:
   - Data processing
   - Database

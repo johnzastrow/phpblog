@@ -1,5 +1,5 @@
 ---
-title: Wget examples
+ #  Wget examples
 categories:
   - Data processing
   - Linux

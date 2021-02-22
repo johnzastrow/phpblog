@@ -1,5 +1,5 @@
 ---
-title: Dropping columns in sqlite/spatialite
+ #  Dropping columns in sqlite/spatialite
 categories:
   - Data processing
   - Database

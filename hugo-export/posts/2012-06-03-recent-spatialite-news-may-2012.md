@@ -1,5 +1,5 @@
 ---
-title: Recent Spatialite News May 2012
+ #  Recent Spatialite News May 2012
 categories:
   - Data processing
   - Database

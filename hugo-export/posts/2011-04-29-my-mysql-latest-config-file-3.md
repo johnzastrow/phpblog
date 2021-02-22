@@ -1,5 +1,5 @@
 ---
-title: My MySQL latest config file
+ #  My MySQL latest config file
 categories:
   - Database
   - Linux

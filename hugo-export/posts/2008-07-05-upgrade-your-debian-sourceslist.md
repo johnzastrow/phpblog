@@ -1,5 +1,5 @@
 ---
-title: Upgrade your debian sources.list
+ #  Upgrade your debian sources.list
 categories:
   - Linux
 

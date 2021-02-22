@@ -1,5 +1,5 @@
 ---
-title: Search remotely and send the results to local machine
+ #  Search remotely and send the results to local machine
 categories:
   - Linux
 

@@ -1,5 +1,5 @@
 ---
-title: Using Rsync under Windows with Cygwin
+ #  Using Rsync under Windows with Cygwin
 categories:
   - Uncategorized
 

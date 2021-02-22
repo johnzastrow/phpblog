@@ -1,5 +1,5 @@
 ---
-title: Good review of Mapnik for generating online maps
+ #  Good review of Mapnik for generating online maps
 categories:
   - GIS
   - Web

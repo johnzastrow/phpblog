@@ -1,5 +1,5 @@
 ---
-title: Example with PHP and Spatialite, part 1
+ #  Example with PHP and Spatialite, part 1
 categories:
   - Data processing
   - Database

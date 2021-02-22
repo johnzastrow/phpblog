@@ -1,5 +1,5 @@
 ---
-title: Find to copy files into single directory
+ #  Find to copy files into single directory
 categories:
   - Linux
 
