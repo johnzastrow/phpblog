@@ -1,9 +1,5 @@
 ---
-title: Good review of Mapnik for generating online maps
-author: John C. Zastrow
-type: post
-date: 2008-07-25T04:02:08+00:00
-url: /2008/07/24/good-review-of-mapnik-for-generating-online-maps/
+ #  Good review of Mapnik for generating online maps
 categories:
   - GIS
   - Web

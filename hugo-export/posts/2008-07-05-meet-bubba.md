@@ -1,9 +1,5 @@
 ---
-title: Meet Bubba
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:26:47+00:00
-url: /2008/07/05/meet-bubba/
+ #  Meet Bubba
 categories:
   - Home and Family
 

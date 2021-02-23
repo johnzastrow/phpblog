@@ -1,9 +1,5 @@
 ---
-title: Another Linux Web MySQL Backup Script
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:45:37+00:00
-url: /2008/07/05/another-linux-web-mysql-backup-script/
+ #  Another Linux Web MySQL Backup Script
 categories:
   - Linux
 
@@ -55,9 +51,7 @@ tables in all databases on the mysql server.
 \### System Setup ###  
 DIRS=”/home /etc /var/www”  
 BACKUP=/tmp/backup.$$  
-NOW=$(date +”%d-%m-%Y”)  
 INCFILE=”/root/tar-inc-backup.dat”  
-DAY=$(date +”%a”)  
 FULLBACKUP=”Sun”  
 \### MySQL Setup ###  
 MUSER=”admin”  
@@ -82,7 +76,6 @@ FTPD=”/home/vivek/full”
 FILE=”fs-full-$NOW.tar.gz”  
 tar -zcvf $BACKUP/$FILE $DIRS  
 else  
-i=$(date +”%Hh%Mm%Ss”)  
 FILE=”fs-i-$NOW-$i.tar.gz”  
 tar -g $INCFILE -zcvf $BACKUP/$FILE $DIRS  
 fi  
@@ -91,7 +84,6 @@ fi
 DBS=”$($MYSQL -u $MUSER -h $MHOST -p$MPASS -Bse ’show databases’)”  
 for db in $DBS  
 do  
-FILE=$BACKUP/mysql-$db.$NOW-$(date +”%T”).gz  
 $MYSQLDUMP -u $MUSER -h $MHOST -p$MPASS $db | $GZIP -9 > $FILE  
 done  
 \### Dump backup using FTP ###  
@@ -109,7 +101,6 @@ if [ &#8220;$?&#8221; == &#8220;0&#8221; ]; then
 rm -f $BACKUP/*  
 else  
 T=/tmp/backup.fail  
-echo &#8220;Date: $(date)&#8221;>$T  
 echo “Hostname: $(hostname)” >>$T  
 echo “Backup failed” >>$T  
 mail -s “BACKUP FAILED” “$EMAILID” <$T  

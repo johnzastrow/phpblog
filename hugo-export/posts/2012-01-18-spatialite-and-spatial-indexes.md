@@ -1,9 +1,5 @@
 ---
-title: Spatialite and Spatial Indexes
-author: John C. Zastrow
-type: post
-date: 2012-01-19T04:11:32+00:00
-url: /2012/01/18/spatialite-and-spatial-indexes/
+ #  Spatialite and Spatial Indexes
 categories:
   - Data processing
   - Database
@@ -23,7 +19,6 @@ So, I made a bigger dataset. As shown below, the number of features I&#8217;m te
 
 So, armed with this larger dataset I proceeded to test sensitivity to using indexes.
 
-I dinked around with trying to write own my R-tree index queries (the &#8220;some index&#8221; examples below) and they helped. Then Sandro (author of spatialite) replied to a post I made seeking guidance. There he re-wrote my query (best examples below)and suggested I read about a new, easier way to use spatial indexes here <a href="http://www.gaia-gis.it/gaia-sins/SpatialIndex-Update.pdf" target="_blank">http://www.gaia-gis.it/gaia-<wbr />sins/SpatialIndex-Update.pdf</a>
 
 ## The Original Query
 
@@ -34,7 +29,6 @@ WHERE ST_Contains(Geometry, MakePoint(-70.250,43.802)) = 1</pre>
 
 &nbsp;
 
-Faced with 2429 polygons, the original query takes about 1.9 seconds on average. My goal is to get results back from anywhere in the country in 1 second or less. Clearly this type of query isn&#8217;t going to cut it.
 
 <figure id="attachment_316" aria-describedby="caption-attachment-316" style="width: 300px" class="wp-caption alignnone">[<img loading="lazy" class="size-medium wp-image-316 " title="Timings without index" alt="Timings without index" src="http://northredoubt.com/n/wp-content/uploads/2012/01/noindex-300x101.png" width="300" height="101" srcset="http://northredoubt.com/n/wp-content/uploads/2012/01/noindex-300x101.png 300w, http://northredoubt.com/n/wp-content/uploads/2012/01/noindex-500x168.png 500w, http://northredoubt.com/n/wp-content/uploads/2012/01/noindex.png 524w" sizes="(max-width: 300px) 100vw, 300px" />][2]<figcaption id="caption-attachment-316" class="wp-caption-text">Timings without index</figcaption></figure>
 
@@ -64,7 +58,6 @@ The explain plan gets better. We see the filtering and while we&#8217;re scannin
 
 ##  Best Query
 
-So then came Sandro&#8217;s reply. In it he guided me to this type of query.. which rocks.
 
 &nbsp;
 

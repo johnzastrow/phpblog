@@ -1,9 +1,5 @@
 ---
-title: ArcPy and Email – Living together
-author: John C. Zastrow
-type: post
-date: 2012-05-24T02:27:56+00:00
-url: /2012/05/23/arcpy-and-email-living-together/
+ #  ArcPy and Email – Living together
 categories:
   - Data processing
   - Database
@@ -14,7 +10,6 @@ The other day I needed to process some data for the whole country and I wanted t
 
 <pre class="lang:python decode:1 " ># Import arcpy and other useful modules
 
-import sys, os, time, traceback, shutil, arcpy, math, datetime, string, smtplib as s
 from time import clock
 from email.mime.text import MIMEText
 

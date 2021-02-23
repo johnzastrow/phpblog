@@ -1,9 +1,5 @@
 ---
-title: Spatialite wishlist for 2013
-author: John C. Zastrow
-type: post
-date: 2013-04-01T15:01:02+00:00
-url: /2013/04/01/spatialite-wishlist-for-2013/
+ #  Spatialite wishlist for 2013
 categories:
   - Data processing
   - Database
@@ -24,7 +20,6 @@ So here are some wishlist items.
 
 **Larger Developer Community:** Spatialite really seems to be a labor of love to Sandro &#8211; and it shows with his support of user questions on the support list on <a href="https://groups.google.com/forum/?fromgroups#!forum/spatialite-users" target="_blank">Google Groups</a>. Similarly, development seems to be guided mostly by Sandro&#8217;s needs &#8212; which is fine to an extent. But the development road map lacks transparency &#8211; which is to say that it&#8217;s not missing, just needs some more daylight and/or planning. Users might have some inkling of major new initiatives that Sandro and Brad are working on when they have the time to write about them in an email or a wiki entry. But there is no complete public road map, no true work log, and mostly we hear about new tweaks such as SQL functions only after they are released. You can kinda see what HAS happened if you watch the <a href="https://www.gaia-gis.it/fossil/libspatialite/timeline" target="_blank">Fossil timelines</a> &#8211; But this isn&#8217;t ideal. So, I am hopeful that this project will mature into one having a larger, interactive, transparent, diverse and functional developer community and that Sandro can and will allow other minds to influence the direction that future Spatialite development takes. In short, I think _<span style="text-decoration: underline;">the guys need help with the standard mechanics of OSS projects (development, documentation, outreach, etc.)</span>._
 
-**Documentation:** There used to be extensive documentation in verbose narrative form on scattered, stand-alone pages on the Spatialite site, but much of it is outdated. Sandro tries to keep up documenting the new features and changes, but I do think that more documentation would help. It would also be help if the documentation were provided in a more structured (perhaps even hierarchical) format instead of scattered across the Google Group email list and un-structured partially linked, non-hierarchical pages in the old Spatialite site and the new Fossil-based wiki. I&#8217;ve always been a big fan of the documentation provided by the folks at <a href="http://php.net/manual/en/function.exif-imagetype.php" target="_blank">PHP</a> and <a href="http://dev.mysql.com/doc/refman/5.5/en/control-flow-functions.html" target="_blank">MySQL</a>. I tried once to contribute to writing documentation, but I&#8217;m not doing my personal and professional life well enough, and so I didn&#8217;t get very far.
 
 **Better support for MS VC++ in general and non-manual support for system.data.sqlite: **Sandro and the other guys don&#8217;t like doing Windows. I get it. But people really want to be able get Spatialite happily integrated into their .Net development life &#8211; and these are people who don&#8217;t do ./configure \ make \ make install in their sleep. Sandro has posted notes for working with his project files in Visual Studio, but they frighten Microsoft-only folks. Sebastian* found agony with this and created some additional work (<a href="https://bitbucket.org/mayastudios" target="_blank">https://bitbucket.org/mayastudios</a>) to help him do Windows. But I hope that someone steps up to help the current project members maintain parallel builds and projects targeted at better supporting Windows and other platforms. Sandro and Brad maintain the core libs and do what they can to assist integration with other platforms. So some dedicated downstream maintainers for other platforms and builds are really needed.
 
@@ -34,7 +29,6 @@ So these are just a few items on my wishlist. We&#8217;ll see if the future take
 
 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-
 
-* From Sebastian about his bitbucket &#8220;It contains a VS 2010 solution to compile Spatialite. You need Mercurial though to check it out. Just downloading it from bitbucket won&#8217;t work because the repository uses sub repositories (which aren&#8217;t included in the download).&#8221; (you need to install mercurial to successfully work with his repos. If you&#8217;re just looking to clone (check out) the repository, use &#8220;hg clone \[url\] \[dir\]&#8221; or use <a href="http://tortoisehg.bitbucket.org/" target="_blank">TortoiseHg</a>): The new tip (newest revision) builds Spatialite 4.0.0 on Windows.
 
   * The repository **_spatialite-lib-windows_** just compiles the native (unmanaged) &#8220;spatialite.dll&#8221; &#8211; along with &#8220;sqlite.dll&#8221;, if you need it. The same is true for the<span style="text-decoration: underline;"><strong> &#8220;spatialite-lib-android&#8221;</strong> </span>(former &#8220;spatialite-android-lib&#8221;) repository, just for Android. The repository &#8220;spatialite-android-java&#8221; (former &#8220;spatialite-android&#8221;) is obsolete.
   * SQLite.Net started as a port of the Java SQLite bindings with the goal to allow it to be used cross-platform. At the time of writing, I was fairely new to SQLite and I couldn&#8217;t get &#8220;system.data.sqlite&#8221; compiled (AFAIK). So I sticked with my own implementation.
@@ -50,12 +44,10 @@ So these are just a few items on my wishlist. We&#8217;ll see if the future take
     
     <div>
       <div>
-        <span style="font-family: arial, sans-serif;">></span>Are you also the author of the other projects I see at Maya Studios?
       </div>
     </div>
     
     <div>
-             -Yes, I&#8217;m the author of all of them.
     </div>
 
   *  If you&#8217;re just looking for the Spatialite binaries, you can download them here: <a href="https://bitbucket.org/mayastudios/files/src" target="_blank" class="broken_link">https://bitbucket.org/<wbr />mayastudios/files/src</a>

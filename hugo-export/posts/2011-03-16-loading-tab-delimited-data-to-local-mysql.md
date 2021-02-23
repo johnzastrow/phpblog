@@ -1,9 +1,5 @@
 ---
-title: Loading tab-delimited data to local MySQL
-author: John C. Zastrow
-type: post
-date: 2011-03-16T15:17:15+00:00
-url: /2011/03/16/loading-tab-delimited-data-to-local-mysql/
+ #  Loading tab-delimited data to local MySQL
 categories:
   - Uncategorized
 

@@ -1,9 +1,5 @@
 ---
-title: Another automated FTP bash script
-author: John C. Zastrow
-type: post
-date: 2010-10-04T12:00:27+00:00
-url: /2010/10/04/another-automated-ftp-bash-script/
+ #  Another automated FTP bash script
 categories:
   - Linux
 

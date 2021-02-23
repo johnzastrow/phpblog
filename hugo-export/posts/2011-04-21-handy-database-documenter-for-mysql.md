@@ -1,9 +1,5 @@
 ---
-title: Handy database documenter for MySQL
-author: John C. Zastrow
-type: post
-date: 2011-04-21T19:39:45+00:00
-url: /2011/04/21/handy-database-documenter-for-mysql/
+ #  Handy database documenter for MySQL
 categories:
   - Database
 
@@ -16,7 +12,6 @@ Here&#8217;s a view that will spit out just about everything MySQL (5.1) knows a
 
 <pre>SELECT * FROM AZ_CA_NV_UT_species_LOCAL PROCEDURE ANALYSE(10000, 4000);</pre>
 
-to see before and after &#8220;optimal&#8221; <a href="http://www.mysqlperformanceblog.com/2009/03/23/procedure-analyse/" target="_blank">(1)</a>   <a href="http://dave-stokes.blogspot.com/2008/02/procedure-analyse.html" target="_blank">(2)</a> field types and lengths predicted by the internal <span style="text-decoration: underline;"><strong>PROCEDURE ANALYSE.</strong></span>
 
 <pre>CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_field_table_data` AS
 SELECT

@@ -1,9 +1,5 @@
 ---
-title: First ever LOL
-author: John C. Zastrow
-type: post
-date: 2012-06-18T17:02:50+00:00
-url: /2012/06/18/first-ever-lol/
+ #  First ever LOL
 categories:
   - Data processing
   - GIS

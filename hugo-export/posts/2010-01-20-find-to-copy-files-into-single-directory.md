@@ -1,9 +1,5 @@
 ---
-title: Find to copy files into single directory
-author: John C. Zastrow
-type: post
-date: 2010-01-20T21:49:16+00:00
-url: /2010/01/20/find-to-copy-files-into-single-directory/
+ #  Find to copy files into single directory
 categories:
   - Linux
 

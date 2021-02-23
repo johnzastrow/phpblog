@@ -1,9 +1,5 @@
 ---
-title: Example with PHP and Spatialite, part 2
-author: John C. Zastrow
-type: post
-date: 2012-01-18T04:27:06+00:00
-url: /2012/01/17/example-with-php-and-spatialite-part-2/
+ #  Example with PHP and Spatialite, part 2
 categories:
   - Data processing
   - Database
@@ -110,7 +106,6 @@ while ($row = $rs->fetchArray())
 \# read the result set  
 $msg = &#8220;There are &#8220;;  
 $msg .= $row[0];  
-$msg .= &#8221; entities of type &#8220;;  
 $msg .= $row[1];  
 $msg .= &#8221; SRID=&#8221;;  
 $msg .= $row[2];  

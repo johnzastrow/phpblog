@@ -1,9 +1,5 @@
 ---
-title: Changing run levels at boot time
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:37:34+00:00
-url: /2008/07/05/changing-run-levels-at-boot-time/
+ #  Changing run levels at boot time
 categories:
   - Linux
 

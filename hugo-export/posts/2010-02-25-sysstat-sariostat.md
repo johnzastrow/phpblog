@@ -1,9 +1,5 @@
 ---
-title: 'SYSSTAT: SAR/IOSTAT'
-author: John C. Zastrow
-type: post
-date: 2010-02-25T18:30:48+00:00
-url: /2010/02/25/sysstat-sariostat/
+ #  'SYSSTAT: SAR/IOSTAT'
 categories:
   - Uncategorized
 tags:

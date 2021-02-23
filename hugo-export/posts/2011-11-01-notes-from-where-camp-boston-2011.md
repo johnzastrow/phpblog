@@ -1,9 +1,5 @@
 ---
-title: Notes from Where Camp Boston 2011
-author: John C. Zastrow
-type: post
-date: 2011-11-01T14:36:07+00:00
-url: /2011/11/01/notes-from-where-camp-boston-2011/
+ #  Notes from Where Camp Boston 2011
 categories:
   - Data processing
   - Database
@@ -26,7 +22,6 @@ So what follows are my notes from Where Camp Boston 2011, and in generally chron
 
 <figure id="attachment_247" aria-describedby="caption-attachment-247" style="width: 150px" class="wp-caption alignnone">[<img loading="lazy" class="size-thumbnail wp-image-247" title="IMAG0087" src="http://northredoubt.com/n/wp-content/uploads/2011/11/IMAG0087-150x150.jpg" alt="Session board" width="150" height="150" />][1]<figcaption id="caption-attachment-247" class="wp-caption-text">The session board at Where camp Boston 2011</figcaption></figure>
 
-  * **Geocouch** &#8211; finally heard someone using this spatially-enabled, NoSQL data storage technology. It does seem that many NoSQL solutions have at least X,Y spatial capabilities and data types. I&#8217;m kinda torn between Cassandra and MongoDB. Although, there are SOoo many commercial/cloud offerings out there if you just want to store points. See below
   * &#8212; **CouchDB** &#8211; <http://couchdb.apache.org/>
   * **Open Geo Portal**. could be interesting. <a href="http://opengeoportal.org/" target="_blank">http://opengeoportal.org/</a>
   * **Fascinating use of VGI/Crowd sourcing to collect hi-res data.** Now if they can just harness all that information and use it effectively. Hopefully the Where Camp Boston folks can post some slides from the keynotes. I missed a lot of detail from this one. <a href="http://publiclaboratory.org/home" target="_blank">http://publiclaboratory.org/home</a>

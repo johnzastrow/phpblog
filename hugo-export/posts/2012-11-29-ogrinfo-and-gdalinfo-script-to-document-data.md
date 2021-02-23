@@ -1,9 +1,5 @@
 ---
-title: ogrinfo and gdalinfo script to document data
-author: John C. Zastrow
-type: post
-date: 2012-11-29T16:19:11+00:00
-url: /2012/11/29/ogrinfo-and-gdalinfo-script-to-document-data/
+ #  ogrinfo and gdalinfo script to document data
 categories:
   - Data processing
   - GIS
@@ -15,7 +11,6 @@ I needed to recursively document a bunch of Shapefiles and geotiffs in a hierarc
 
 echo "********************** START Shapefiles ***********************"
 echo ""
-for x in $(find ./* -type f -name \*.shp); do
 base=${x##*/}
 echo "--- Found the Shapefile " $base "and the base layer of " ${base%.*}
 /bin/GDAL/./ogrinfo.exe -ro -so -al -fields=YES -geom=SUMMARY $x
@@ -26,7 +21,6 @@ echo "********************** END Shapefiles ***********************"
 
 echo "********************** START TIFFs ***********************"
 echo ""
-for y in $(find ./* -type f -name \*.tif); do
 base=${y##*/}
 echo "--- Found the TIFF file " $base "and the base layer of " ${base%.*}
 /bin/GDAL/./gdalinfo.exe -approx_stats -mm -noct -proj4 $y

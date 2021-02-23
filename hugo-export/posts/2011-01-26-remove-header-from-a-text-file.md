@@ -1,9 +1,5 @@
 ---
-title: Remove header from a text file
-author: John C. Zastrow
-type: post
-date: 2011-01-26T14:20:08+00:00
-url: /2011/01/26/remove-header-from-a-text-file/
+ #  Remove header from a text file
 categories:
   - Database
   - GIS

@@ -1,9 +1,5 @@
 ---
-title: USGS GNIS column names and shapefiles
-author: John C. Zastrow
-type: post
-date: 2011-05-26T19:10:36+00:00
-url: /2011/05/26/usgs-gnis-column-names-and-shapefiles/
+ #  USGS GNIS column names and shapefiles
 categories:
   - Uncategorized
 

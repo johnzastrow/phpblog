@@ -1,16 +1,11 @@
 ---
-title: Tips for using the ls command to list files in Cygwin or Linux
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:39:40+00:00
-url: /2008/07/05/tips-for-using-the-ls-command-to-list-files-in-cygwin-or-linux/
+ #  Tips for using the ls command to list files in Cygwin or Linux
 categories:
   - Linux
 
 ---
 Classify
 
-ls &#8211;classify or ls -F will append characters to files to show their type:
 
 * / directory  
 \* \* executable 

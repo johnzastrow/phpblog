@@ -1,9 +1,5 @@
 ---
-title: PostGIS Install and Cloning Ubuntu Systems Notes
-author: John C. Zastrow
-type: post
-date: 2011-05-11T20:02:15+00:00
-url: /2011/05/11/postgis-install-and-cloning-ubuntu-systems-notes/
+ #  PostGIS Install and Cloning Ubuntu Systems Notes
 categories:
   - Database
   - Linux
@@ -80,7 +76,6 @@ psql -d yourtestdatabase -f postgis/postgis.sql
 psql -d yourtestdatabase -f spatial\_ref\_sys.sql[/cc]
 
 how to generate a list of installed packages and use it to reinstall packages  
-[cc lang=&#8217;bash&#8217; ]sudo apt-get update  
 sudo apt-get dist-upgrade  
 sudo dpkg &#8211;get-selections | grep -v deinstall | awk &#8216;{print $1}&#8217; > 164.ubuntu-files_b.txt  
 sudo cat 164.ubuntu-files_b.txt | xargs sudo aptitude install[/cc]
@@ -89,7 +84,6 @@ NOTE: WordPress interprets two dashes (- -) as one dash (–). When you’re put
 
 &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;
 
-Update 20-Aug-2011
 
 One liners install process instructions for Ubuntu 11
 
@@ -110,7 +104,6 @@ wget http://download.osgeo.org/proj/proj-4.7.0.tar.gz
 
 <span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;"><span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;">cd postgresql-8.3.7</span></span></span></span></span></span>
 
-<span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;">./configure –with-openssl &#8211;enable-integer-datetimes</span></span></span>
 
 make
 
@@ -126,7 +119,6 @@ make install
 
 <span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;">chmod 775 /etc/init.d/postgresql</span></span></span>
 
-<span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;">update-rc.d /etc/init.d/postgresql defaults</span></span></span>
 
 <span style="color: #000000;"><span style="font-family: Nimbus Mono L,monospace;"><span style="font-size: x-small;">adduser postgres -d /usr/local/pgsql</span></span></span>
 

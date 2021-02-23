@@ -1,9 +1,5 @@
 ---
-title: Oracle Dump File Reference
-author: John C. Zastrow
-type: post
-date: 2012-09-20T17:03:34+00:00
-url: /2012/09/20/oracle-dump-file-reference/
+ #  Oracle Dump File Reference
 categories:
   - Database
 
@@ -36,7 +32,6 @@ categories:
  FILE input files (EXPDAT.DMP) TOUSER list of usernames
  SHOW just list file contents (N) TABLES list of table names
  IGNORE ignore create errors (N) RECORDLENGTH length of IO record
- GRANTS import grants (Y) INCTYPE incremental import type
  INDEXES import indexes (Y) COMMIT commit array insert (N)
  ROWS import data rows (Y) PARFILE parameter filename
  LOG log file of screen output CONSTRAINTS import constraints (Y)
@@ -44,7 +39,6 @@ categories:
  INDEXFILE write table/index info to specified file
  SKIP_UNUSABLE_INDEXES skip maintenance of unusable indexes (N)
  FEEDBACK display progress every x rows(0)
- TOID_NOVALIDATE skip validation of specified type ids
  FILESIZE maximum size of each dump file
  STATISTICS import precomputed statistics (always)
  RESUMABLE suspend when a space related error is encountered(N)

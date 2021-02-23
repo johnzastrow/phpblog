@@ -1,9 +1,5 @@
 ---
-title: Postgis data loader from shapefile bash shell script
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:43:16+00:00
-url: /2008/07/05/postgis-data-loader-from-shapefile-bash-shell-script/
+ #  Postgis data loader from shapefile bash shell script
 categories:
   - GIS
 

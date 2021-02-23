@@ -1,9 +1,5 @@
 ---
-title: Screen capture programs
-author: John C. Zastrow
-type: post
-date: 2011-04-22T15:19:59+00:00
-url: /2011/04/22/screen-capture-programs/
+ #  Screen capture programs
 categories:
   - Uncategorized
 

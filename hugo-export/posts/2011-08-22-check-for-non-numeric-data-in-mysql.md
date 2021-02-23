@@ -1,9 +1,5 @@
 ---
-title: Check for non-numeric data in mysql
-author: John C. Zastrow
-type: post
-date: 2011-08-22T16:49:09+00:00
-url: /2011/08/22/check-for-non-numeric-data-in-mysql/
+ #  Check for non-numeric data in mysql
 categories:
   - Data processing
   - Database

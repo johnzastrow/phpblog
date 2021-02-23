@@ -1,9 +1,5 @@
 ---
-title: Accessing versioned geodata in ArcSDE with SQL
-author: John C. Zastrow
-type: post
-date: 2011-03-30T14:29:37+00:00
-url: /2011/03/30/accessing-versioned-geodata-in-arcsde-with-sql/
+ #  Accessing versioned geodata in ArcSDE with SQL
 categories:
   - Database
   - GIS
@@ -33,7 +29,6 @@ Select COUNT(*) from mvv_wMeter ; </pre>**
 
 I believe it is worth posting the warnings on that page here:
 
-<span style="color: #999999;"><ins datetime="2011-03-30T14:23:06+00:00">Never use database management system (DBMS) tools to update any row ID (object ID) field maintained by Ar</ins>cSDE in the database. These object ID fields are allocated and managed by the geodatabase and, therefore, should not be altered using SQL.</span>
 
  <span style="color: #999999;">Never edit the DEFAULT version of the geodatabase using SQL. Starting an edit session on a version obtains an exclusive lock on the state that the version references. If you lock the DEFAULT version, you prevent ArcGIS users from connecting to the geodatabase.</span>
 

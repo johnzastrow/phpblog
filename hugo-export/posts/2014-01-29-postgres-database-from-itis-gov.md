@@ -1,9 +1,5 @@
 ---
-title: Postgres database from itis.gov
-author: John C. Zastrow
-type: post
-date: 2014-01-29T20:22:30+00:00
-url: /2014/01/29/postgres-database-from-itis-gov/
+ #  Postgres database from itis.gov
 categories:
   - Data processing
   - Database

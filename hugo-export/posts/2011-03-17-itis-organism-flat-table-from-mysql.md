@@ -1,9 +1,5 @@
 ---
-title: ITIS Organism Flat table from MySQL
-author: John C. Zastrow
-type: post
-date: 2011-03-17T20:03:30+00:00
-url: /2011/03/17/itis-organism-flat-table-from-mysql/
+ #  ITIS Organism Flat table from MySQL
 categories:
   - Uncategorized
 
@@ -21,14 +17,9 @@ SELECT
 &nbsp; \`taxonomic\_units\`.\`unit\_name3\`&nbsp; AS \`unit_name3\`,  
 &nbsp; \`taxonomic\_units\`.\`unit\_ind4\`&nbsp;&nbsp; AS \`unit_ind4\`,  
 &nbsp; \`taxonomic\_units\`.\`parent\_tsn\`&nbsp; AS \`parent_tsn\`,  
-&nbsp; \`taxonomic\_units\`.\`update\_date\` AS \`update_date\`,  
-&nbsp; \`taxon\_unit\_types\`.\`rank\_name\`&nbsp; AS \`rank\_name\`,  
 &nbsp; \`vernaculars\`.\`vernacular\_name\` AS \`vernacular\_name\`,  
 &nbsp; \`longnames\`.\`completename\`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AS \`completename\`  
-FROM (((\`taxon\_unit\_types\`  
 &nbsp;&nbsp;&nbsp;&nbsp; JOIN \`taxonomic_units\`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ON (((\`taxon\_unit\_types\`.\`rank\_id\` = \`taxonomic\_units\`.\`rank_id\`)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AND (\`taxon\_unit\_types\`.\`kingdom\_id\` = \`taxonomic\_units\`.\`kingdom_id\`))))  
 &nbsp;&nbsp;&nbsp; LEFT JOIN \`vernaculars\`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ON ((\`vernaculars\`.\`tsn\` = \`taxonomic_units\`.\`tsn\`)))  
 &nbsp;&nbsp; LEFT JOIN \`longnames\`  

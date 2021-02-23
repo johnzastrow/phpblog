@@ -1,9 +1,5 @@
 ---
-title: How to set a static IP in Ubuntu from the shell
-author: John C. Zastrow
-type: post
-date: 2008-12-05T00:49:06+00:00
-url: /2008/12/04/how-to-set-a-static-ip-in-ubuntu-from-the-shell-2/
+ #  How to set a static IP in Ubuntu from the shell
 categories:
   - Linux
 

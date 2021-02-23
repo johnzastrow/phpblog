@@ -1,9 +1,5 @@
 ---
-title: How to append tables in Mysql
-author: John C. Zastrow
-type: post
-date: 2008-07-05T23:58:01+00:00
-url: /2008/07/05/how-to-append-tables-in-mysql/
+ #  How to append tables in Mysql
 categories:
   - Database
 

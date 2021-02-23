@@ -1,9 +1,5 @@
 ---
-title: FOSS4g North America not for me
-author: John C. Zastrow
-type: post
-date: 2012-02-16T20:31:13+00:00
-url: /2012/02/16/foss4g-north-america-not-for-me/
+ #  FOSS4g North America not for me
 categories:
   - GIS
 

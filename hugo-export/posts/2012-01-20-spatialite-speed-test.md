@@ -1,9 +1,5 @@
 ---
-title: Spatialite Speed Test
-author: John C. Zastrow
-type: post
-date: 2012-01-21T03:21:51+00:00
-url: /2012/01/20/spatialite-speed-test/
+ #  Spatialite Speed Test
 categories:
   - Data processing
   - Database

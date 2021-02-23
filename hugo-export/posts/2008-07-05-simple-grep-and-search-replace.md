@@ -1,9 +1,5 @@
 ---
-title: 'Simple grep and search & replace'
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:36:36+00:00
-url: /2008/07/05/simple-grep-and-search-replace/
+ #  'Simple grep and search & replace'
 categories:
   - Linux
 

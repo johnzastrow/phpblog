@@ -1,9 +1,5 @@
 ---
-title: Paths on Linux
-author: John C. Zastrow
-type: post
-date: 2008-07-06T01:40:37+00:00
-url: /2008/07/05/paths-on-linux/
+ #  Paths on Linux
 categories:
   - Linux
 
@@ -46,7 +42,6 @@ LANGUAGE=us
 XCURSOR_THEME=default  
 LOGNAME=jcz  
 DISPLAY=:0.0  
-XAUTHORITY=/home/jcz/.Xauthority  
 COLORTERM=  
 _=/usr/bin/env  
 OLDPWD=/opt
@@ -77,4 +72,3 @@ or in my case
 
 source /etc/profile
 
-then type env to see the changes.

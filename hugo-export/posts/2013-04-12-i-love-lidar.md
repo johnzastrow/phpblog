@@ -1,9 +1,5 @@
 ---
-title: I Love LIDAR
-author: John C. Zastrow
-type: post
-date: 2013-04-12T17:47:41+00:00
-url: /2013/04/12/i-love-lidar/
+ #  I Love LIDAR
 categories:
   - Data processing
   - GIS

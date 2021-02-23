@@ -1,9 +1,5 @@
 ---
-title: exif from pictures for GIS
-author: John C. Zastrow
-type: post
-date: 2012-04-19T13:38:47+00:00
-url: /2012/04/19/exif-from-pictures-for-gis/
+ #  exif from pictures for GIS
 categories:
   - Data processing
   - Database

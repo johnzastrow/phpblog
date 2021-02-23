@@ -1,9 +1,5 @@
 ---
-title: MySQL Functions
-author: John C. Zastrow
-type: post
-date: 2011-03-31T18:48:01+00:00
-url: /2011/03/31/mysql-functions/
+ #  MySQL Functions
 categories:
   - Database
   - Uncategorized

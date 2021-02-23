@@ -1,9 +1,5 @@
 ---
-title: Creating an ST_ table and view in Oracle for ArcSDE
-author: John C. Zastrow
-type: post
-date: 2011-09-01T20:30:10+00:00
-url: /2011/09/01/creating-an-st_-table-and-view-in-oracle-for-arcsde/
+ #  Creating an ST_ table and view in Oracle for ArcSDE
 categories:
   - Data processing
   - Database
@@ -80,5 +76,4 @@ Layer    Administration Utility
 </p>
 
 <p>
-  Now we can read and write to this layer using ESRI&#8217;s ST_ SQL or ArcMap. and read the latest records from the view (which limits the out of date records since we are versioning using home grown methods in Oracle tables) with ArcGIS Server OR ArcMAP OR our Oracle/.Net application which doesn&#8217;t care about the geometry.
 </p>

@@ -1,16 +1,11 @@
 ---
-title: Importing EPA WQX Domains into MySQL Tables
-author: John C. Zastrow
-type: post
-date: 2013-02-19T21:40:13+00:00
-url: /2013/02/19/importing-epa-wqx-domains-into-mysql-tables/
+ #  Importing EPA WQX Domains into MySQL Tables
 categories:
   - Data processing
   - Database
   - water quality
 
 ---
-I wanted fresh <a href="http://www.epa.gov/storet/wqx/" target="_blank">WQX</a> domain values from the <a href="http://www.epa.gov/storet/tools.html" target="_blank">STORET web service</a> that are updated daily ( <a href="http://www.epa.gov/storet/wqx/wqx_getdomainvalueswebservice.html" target="_blank">http://www.epa.gov/storet/wqx/wqx_getdomainvalueswebservice.html</a> ) &#8211; which are provided in XML format. But, it&#8217;s not a friendly format for most software. Excel and Access &#8220;see it&#8221; but they don&#8217;t make useful tables out of them. It turns out that MySQL&#8217;s LOAD XML command (<a href="https://dev.mysql.com/doc/refman/5.5/en/load-xml.html" target="_blank">https://dev.mysql.com/doc/refman/5.5/en/load-xml.html</a>)  works for this, but you need to change the structure of the XML a bit. When the manual says that the XML must be one of the 3 formats &#8211; it&#8217;s not kidding and it&#8217;s not as flexible as the text makes it sound. So, the following instructions and horribly-brute force script will transform the EPA XML files into something that MySQL will understand and then load the data for you.
 
 First I created this table to hold my data (you might need to add more columns).
 

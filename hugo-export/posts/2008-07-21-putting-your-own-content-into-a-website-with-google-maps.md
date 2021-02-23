@@ -1,9 +1,5 @@
 ---
-title: Putting your own content into a website with Google Maps
-author: John C. Zastrow
-type: post
-date: 2008-07-22T02:43:17+00:00
-url: /2008/07/21/putting-your-own-content-into-a-website-with-google-maps/
+ #  Putting your own content into a website with Google Maps
 categories:
   - GIS
   - Web

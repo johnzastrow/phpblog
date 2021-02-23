@@ -1,9 +1,5 @@
 ---
-title: Photo contact sheet from command line
-author: John C. Zastrow
-type: post
-date: 2015-08-07T19:47:54+00:00
-url: /2015/08/07/photo-contact-sheet-from-command-line/
+ #  Photo contact sheet from command line
 categories:
   - Cywgin
   - Data processing

@@ -1,9 +1,5 @@
 ---
-title: ArcMap 10.2 slowness
-author: John C. Zastrow
-type: post
-date: 2014-03-06T16:56:22+00:00
-url: /2014/03/06/arcmap-10-2-slowness/
+ #  ArcMap 10.2 slowness
 categories:
   - Data processing
   - Database
@@ -25,9 +21,7 @@ Apparently switching between geoprocessing in the foreground (32-bit) versus the
 
 Given that SQLite (Spatialite and Geopackage) are now or soon will be nearly first-class citizens for storing for use in Arc*, if you need true database functions (like joins, views/queries) the various SQLite formats might be a good eventual replacement for PGDBs.. and dare I say even Shapefiles! Much will depend on how seamless Esri makes using them. Right now it&#8217;s actually quite SEAMFUL.
 
-**2. Don&#8217;t update metadata if you don&#8217;t have to**
 
-Also the Arc Map default is to update metadata anytime you touch a file. We turned this off and likely has aided in performance enhancement as well. The improvement seemed to be &#8220;noticeable&#8221; but not what you&#8217;d call terrific.
 
 **3. Rename your home  
 ** 
