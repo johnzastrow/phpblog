@@ -1,9 +1,7 @@
----
  #  Paths on Linux
 categories:
   - Linux
 
----
 Today I&#8217;m going to do a test install of the J2EE mapserver-like  
 facilities provided by geoserver version 1.3 Rc2. I recently installed  
 java and the JDK on this machine, so I still need to set JAVA_HOME in  

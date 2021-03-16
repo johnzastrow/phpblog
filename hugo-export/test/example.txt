@@ -35,3 +35,8 @@ http://northredoubt.com/n/wp-content/uploads
 
 C:\Users\jzastrow\Documents\GitHub\phpblog\hugo-export\wp-content\uploads\2008\07\20040730134004714-2.jpg
 C:\Users\jzastrow\Documents\GitHub\phpblog\hugo-export\posts\2005-02-09-how-to-set-a-static-ip-in-ubuntu-from-the-shell.md
+
+
+|http://northredoubt.com/n/wp-content/uploads/|../images/2014/03/ArcGIS64-bit_docs-300x181.jpg|
+
+find . -name "*.md" -type f -print | xargs sed -e "s|http://northredoubt.com/n/wp-content/uploads/|../images/|g"  2014-03-06-arcmap-10-2-slowness.md
