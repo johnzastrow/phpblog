@@ -23,3 +23,7 @@ read replacement
 echo "Replacing all occurences of $existing with $replacement in files matching $filepattern"
 
 find . -type f -name $filepattern -print0 | xargs -0 sed -i '' -e "s/$existing/$replacement/g"
+
+
+This deletes a line beggining with string
+sed -i /$string/d  file.txt
